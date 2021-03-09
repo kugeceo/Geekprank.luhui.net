@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Smash The Bugs! Free Online Insect Hunter Game App</title>
+<link rel="canonical" href="https://pestgame.com/" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+<meta name="description" content="Hunt down the insects on your screen smashing them with your finger. Kill cockroaches, flies and spiders as quickly as you can to collect points.">
+<meta name="keywords" content="bug,smashing,game" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css?v=2020">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://pestgame.com/" />
+<meta property="og:image" content="https://pestgame.com/img/pestgame.jpg" />
+<meta property="og:description" content="Hunt down the insects on your screen smashing them with your finger. Kill cockroaches, flies and spiders as quickly as you can to collect points." />
+<link rel="apple-touch-icon" href="https://pestgame.com/img/icon.png">
+<script async=true>!function(){var e=window.location.hostname,t=document.createElement("script"),a=document.getElementsByTagName("script")[0],n="https://quantcast.mgr.consensu.org".concat("/choice/","xncav4ssEzwLp","/",e,"/choice.js"),i=0;t.async=!0,t.type="text/javascript",t.src=n,a.parentNode.insertBefore(t,a),function(){function e(){var t=s.document,a=!!s.frames[i];if(!a)if(t.body){var n=t.createElement("iframe");n.style.cssText="display:none",n.name=i,t.body.appendChild(n)}else setTimeout(e,5);return!a}function t(){var e,t=arguments;if(!t.length)return o;if("setGdprApplies"===t[0])t.length>3&&2===t[2]&&"boolean"==typeof t[3]&&(e=t[3],"function"==typeof t[2]&&t[2]("set",!0));else if("ping"===t[0]){var a={gdprApplies:e,cmpLoaded:!1,cmpStatus:"stub"};"function"==typeof t[2]&&t[2](a)}else o.push(t)}function a(e){var t="string"==typeof e.data,a={};try{a=t?JSON.parse(e.data):e.data}catch(e){}var n=a.__tcfapiCall;n&&window.__tcfapi(n.command,n.version,function(a,i){var o={__tcfapiReturn:{returnValue:a,success:i,callId:n.callId}};t&&(o=JSON.stringify(o)),e.source.postMessage(o,"*")},n.parameter)}for(var n,i="__tcfapiLocator",o=[],s=window;s;){try{if(s.frames[i]){n=s;break}}catch(e){}if(s===window.top)break;s=s.parent}n||(e(),s.__tcfapi=t,s.addEventListener("message",a,!1))}();var o=function(){var e=arguments;typeof window.__uspapi!==o&&setTimeout(function(){void 0!==window.__uspapi&&window.__uspapi.apply(window.__uspapi,e)},500)},s=function(){i++,window.__uspapi===o&&i<3?console.warn("USP is not accessible"):clearInterval(c)};if(void 0===window.__uspapi){window.__uspapi=o;var c=setInterval(s,6e3)}}();</script>
+</head>
+<body>
+<div id="wrapGame">
+	<canvas id="bugCanvas" ontouchstart="canvasClick(event)" onmousedown="canvasClick(event)"></canvas>
+	<div id="wrapdebug">
+		<input id="angle" name="age" step="1" type="number" value="0">
+		<div id="debug">
+		</div>
+	</div>
+	<div id="shadowToPreventCanvasClick">	
+	</div>
+	<div id="imagePreloader">
+		<span data-img="pest-game-logo.png"></span>
+		<span data-img="bg1.jpg"></span>
+		<span data-img="bg2.jpg"></span>
+		<span data-img="bg3.jpg"></span>
+		<span data-img="bg4.jpg"></span>
+		<span data-img="c0.png"></span>
+		<span data-img="c1.png"></span>
+		<span data-img="c2.png"></span>
+		<span data-img="combo.png"></span>
+		<span data-img="deadc.png"></span>
+		<span data-img="deadfly.png"></span>
+		<span data-img="deadspider.png"></span>
+		<span data-img="fly0.png"></span>
+		<span data-img="fly1.png"></span>
+		<span data-img="fly2.png"></span>
+		<span data-img="spider0.png"></span>
+		<span data-img="spider1.png"></span>
+		<span data-img="spider2.png"></span>
+		<span data-img="pranks.png"></span>
+	</div>
+	<div id="stickTop" class="open">
+		<div id="settings">
+			<div id="settingScrollWrap">
+				<div id="settingScroll">
+					<div class="settingRow logo">
+						<img src="img/pest-game-logo.png" alt="pest game logo" /><br />
+						<h3>PEST<span>Game</span></h3>
+					</div>
+					<div class="settingRow inputSettings">
+						<div class="wrapInput">
+							<span class="inputLabel">Colony: </span><input type="range" min="1" max="10" value="4" class="slider" id="colonySelect"><span class="mobileInputLabel"><span class="svg" id="bugColony"> </span></span>
+						</div>
+						<div class="wrapInput">
+							<span class="inputLabel">Speed: </span><input type="range" min="0.4" max="3" step="0.1" value="1" class="slider" id="speedSelect"><span class="mobileInputLabel"><span class="svg" id="bugSpeed"> </span></span>
+						</div>
+						<div class="wrapInput">
+							<div id="helpToggle" class="hideHelp" title="Help">
+								<span id="helpOn">X</span> <span id="helpOff">?</span>
+							</div>
+							<div id="adsToggle" class="showads" title="Toggle ads">
+								ADS
+							</div>
+							<div id="soundToggle" class="soundOntrue" title="Sound">
+								<span id="soundOn" class="svg"> </span> <span id="soundOff" class="svg"> </span>
+							</div>
+							<div id="deathToggle" class="deathOnfalse" title="Resurrection">
+								<span id="deathOn" class="svg"> </span> <span id="deathOff" class="svg"> </span>
+							</div>
+						</div>
+					</div>
+					<div class="settingRow narrowSettingTiles">
+						<div id="pickDirection">
+							<div data-dir="0" class="active" id="randomDir">
+								<span>&rarrlp;</span>
+								<span>&rarrlp;</span>						
+							</div>
+							<div data-dir="1" id="topBottomDir">
+								<span>&ddarr;</span>
+							</div>
+							<div data-dir="2" id="leftRightDir">
+								<span>&rrarr;</span>
+							</div>					
+						</div>
+					</div>
+					<div class="settingRow settingTiles" id="pickBugSettings">
+						<div id="pickBugs">
+							<div data-bug="0" class="active" id="allBugsSelect">
+								<img src="img/c1.png" alt="cockroach" />
+								<img src="img/fly1.png" alt="fly" />
+								<img src="img/spider1.png" alt="spider" />
+							</div>
+							<div data-bug="3">
+								<img src="img/c1.png" alt="cockroach" id="selectCockroach" /> 
+							</div>
+							<div data-bug="2">
+								<img src="img/spider1.png" alt="spider" id="selectSpider" />
+							</div>
+							<div data-bug="1">
+								<img src="img/fly1.png" alt="fly" id="selectFly" />
+							</div>
+						</div>
+					</div>
+					<div class="settingRow settingTiles" id="pickBackgroundSettings">
+						<div id="pickBackground">
+							<div data-bg="bg1" class="active" id="corkwoodBG">
+							</div>
+							<div data-bg="bg2" id="grassBG">
+							</div>
+							<div data-bg="bg3" id="canvasBG">
+							</div>
+							<div data-bg="bg4" id="greyBG">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="article">
+<article>
+<h1>Smash The Bugs! Free Online Insect Hunter Game App</h1>
+<p><strong>Hunt down the insects on your screen smashing them with your finger. Kill cockroaches, flies and spiders as quickly as you can to collect points. Prank your cat or other pets with this game: see if it triggers their predatory&nbsp;instinct.</strong></p>
+<h2>Settings</h2>
+<p>There are many ways to customize the game in the panel above. Use the sliders to adjust the amount of bugs and their speed. Toggle the sound with the <span class="emoji soundOnIcon">on</span>/<span class="emoji soundOffIcon">off</span> icons. When the heart symbol <span class="emoji deathOffIcon">❤</span> is active the killed insects always resurrect. When the skull icon <span class="emoji deathOnIcon">&#128128;</span> is on the smashed bugs disappear and they respawn all together when the last one of&nbsp;them&nbsp;dies.</p>
+<p><img src="img/settings.jpg" alt="game settings" class="smallImg" />By default the insects are taking chaotic turns but you can set them to flow only in one&nbsp;direction. In the first case the bugs bounce back when they reach the sides of the playing area while in the second case they show up on the opposite side when they leave the&nbsp;screen.</p>
+<p><img src="img/insect-killer-game.jpg" alt="insect killer game online" class="smallImg" />Change the game style playing with different insects: <strong>Cockroaches</strong> are the largest and they move slow so they are easy to kill (which is usually not true in real life). <strong>Spiders</strong> have a medium size and speed, while the small <strong>flies</strong> move the fastest so they are the hardest&nbsp;to&nbsp;catch. </p>
+<p><img src="img/game-background.jpg" alt="game background" class="smallImg" />Set the background texture of the game in the last set of tiles. There are four images available to choose from: canvas, corkwood, grass or solid grey. When you finished setting up your preferences close this panel and try to click/tap on a anything that's moving on&nbsp;your&nbsp;screen. </p>
+<h2>Scoring</h2>
+<p>The faster and smaller the insect you kill the more points you get. Catch two or more bugs with one click to gain extra. During the game your score always keeps dropping if you&nbsp;are&nbsp;inactive.</p>
+<p>When the <span class="emoji deathOnIcon">💀</span> sign is on you will get a final score when you wipe out the field. It's easier to collect more points when the game is played with more and faster insects. Play two games in a row without changing the settings to measure your performance or to race fairly against your&nbsp;friends.</p>
+<hr />
+<p>This website is running Google Analytics cookies to collect anonymous visitor statistics | <span class="inlineBlock">Contact:&nbsp;<img src="img/footer.png" alt="footer" /> | &copy; wwweeebbb</span></p>
+<div id="closeArticle">x</div>
+</article>
+			</div>
+		</div>
+		<div id="settingsClose"><span id="settingsCloseClose">▲</span><span id="settingsCloseOpen" class="svg">¤</span></div>
+	</div>
+	<div id="wrapScore">
+		<div id="score"></div>
+	</div>
+</div>
+<div id="footer">
+	<div id="wrapNavigation">
+		<ul id="navigation">
+			<li id="galleryTitle">Play:&nbsp;</li>
+			<li><a id="nav1" href="https://geekprank.com/hacker/" target="_blank">Hacker</a></li>
+			<li><a id="nav2" href="https://geekprank.com/" target="_blank">XP</a></li>
+			<li><a id="nav5" href="https://prettycoolsite.com/" target="_blank">News</a></li>
+			<li><a id="nav6" href="https://geekprank.com/win10-update/" target="_blank">Update</a></li>
+			<li><a id="nav3" href="https://geekprank.com/fake-virus/" target="_blank">Virus</a></li>
+			<li><a id="nav4" href="https://geekprank.com/fbi-warning/" target="_blank">FBI</a></li>
+		</ul>
+	</div>
+	<div id="footerB">
+		<div id="wrapperke">
+			<div class="adBanner">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Blue responsive -->
+<ins class="adsbygoogle"
+ style="display:block"
+ data-ad-client="ca-pub-9728962508602593"
+ data-ad-slot="4757084866"
+ data-ad-format="auto"
+ data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			</div>
+		</div>
+	</div>		
+</div>
+<div id="wrapLoading">
+	<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+</div>
+<audio id="audio1"><source src="img/sounds/1.mp3" type="audio/mpeg"></audio>
+<audio id="audio2"><source src="img/sounds/2.mp3" type="audio/mpeg"></audio>
+<audio id="audio3"><source src="img/sounds/3.mp3" type="audio/mpeg"></audio>
+<audio id="audio4"><source src="img/sounds/4.mp3" type="audio/mpeg"></audio>
+<audio id="audio5"><source src="img/sounds/5.mp3" type="audio/mpeg"></audio>
+<audio id="audio6"><source src="img/sounds/6.mp3" type="audio/mpeg"></audio>
+<audio id="audio7"><source src="img/sounds/7.mp3" type="audio/mpeg"></audio>
+<audio id="audio8"><source src="img/sounds/8.mp3" type="audio/mpeg"></audio>
+<script src="script.js?v=2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130244099-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-130244099-1');
+</script>
+</body>
+</html>

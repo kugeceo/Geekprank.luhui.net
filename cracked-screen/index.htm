@@ -1,0 +1,192 @@
+﻿<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="index.htm">
+    <title>Cracked Desktop Screen Prank</title>
+    <meta name="description" content="Cracked desktop screen image to prank your friends. Open this page on the phone of your victim and watch his reaction :)">
+    <meta name="keywords" content="cracked,mobile,screen">
+    <meta property="og:title" content="Cracked Screen Prank">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geekprank.com/cracked-screen/">
+    <meta property="og:image" content="https://geekprank.com/cracked-screen/cracked-screen.jpg">
+    <meta property="og:description" content="Cracked desktop screen image to prank your friends. Open this page on the phone of your victim and watch his reaction :)">
+	<script src="../jquery-1.12.4.js"></script>
+</head>
+
+<body>
+	<img src="cracked-screen.jpg" class="bg" alt="cracked desctop screen">
+
+	<a href="../just-prank/index.htm" id="layoutLink">Geek Prank</a>
+	
+	<div class="hover_bkgr_fricc">
+		<span class="helper"></span>
+		<div>
+			<div class="popupCloseButton">X</div>
+			<p>Activate full screen:<br>Press F11</p>
+			<a href="../index.htm">Find more pranks at <em>GeekPrank.com</em></a>
+		</div>
+	</div>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90658565-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+	<script>
+		var loc = window.location.href+'';
+		if (loc.indexOf('http://')==0){
+			window.location.href = loc.replace('http://','https://');	// https redirect
+		}
+	
+		function requestFullScreen(element) {
+			// Supports most browsers and their versions.
+			var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+
+			if (requestMethod) { // Native full screen.
+				requestMethod.call(element);
+			} else if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+				var wscript = new ActiveXObject("WScript.Shell");
+				if (wscript !== null) {
+					wscript.SendKeys("{F11}");
+				}
+			}
+		}
+		var elem = document.body; // Make the body go full screen.
+		
+		$(window).load(function () {
+			$(".trigger_popup_fricc").click(function(){
+			   $('.hover_bkgr_fricc').show();
+			   requestFullScreen(elem);
+			});
+			$('.hover_bkgr_fricc').click(function(){
+				$('.hover_bkgr_fricc').hide();
+				requestFullScreen(elem);
+			});
+			$('.popupCloseButton').click(function(){
+				$('.hover_bkgr_fricc').hide();
+				requestFullScreen(elem);
+			});
+		});
+	
+	</script>	
+</body>
+
+<style>
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;font-family: arial;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+img.bg {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#layoutLink {
+    position: fixed;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-indent: -999px;
+    z-index: 99;
+    overflow: hidden;
+}
+a#layoutLink {
+	color: #000;
+}
+
+/* Popup box BEGIN */
+.hover_bkgr_fricc div a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #565151;
+}
+.hover_bkgr_fricc div a em {
+	text-decoration: underline;
+	color: #00F;
+	font-style: italic;
+	font-weight: bold;
+}
+.hover_bkgr_fricc div a:hover em {
+	color: #04782A;
+}
+.hover_bkgr_fricc {
+    background: rgba(0,0,0,0.05);
+    /* display: none; */
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+.hover_bkgr_fricc .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+.hover_bkgr_fricc > div {
+    background-color: #fff;
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 300px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    padding: 15px 5%;
+    font-size: 25px;
+    line-height: 40px;
+}
+.popupCloseButton {
+	background-color: #00a536;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: arial;
+	font-weight: bold;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	font-size: 25px;
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+}
+.popupCloseButton:hover {
+    background-color: #0050f2;
+}
+.trigger_popup_fricc {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+/* Popup box BEGIN */
+
+</style>
+
+</html>

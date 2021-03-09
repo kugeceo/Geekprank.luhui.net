@@ -1,0 +1,97 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="description" content="Clean the mine field avoiding to explode the bombs.">
+	<link rel="canonical" href="index.htm">
+	<title>Online MineSweeper</title>
+	
+	<style type="text/css">
+body {	background-color: #C0C0C0;	}
+#wrapAknaKereso .menu_margin { margin-bottom: 5px; } /* force margins around the menu title */
+#wrapAknaKereso .menu_title { font-family: helvetica; font-size: 12px; }
+#wrapAknaKereso a { text-decoration: none; cursor: default; } /* Remove underline from menus */
+#wrapAknaKereso a:link, #wrapAknaKereso a:visited, #wrapAknaKereso a:active { color: #000000; }
+#wrapAknaKereso a:hover { color: #0000CC; }
+#wrapAknaKereso .menu_item { font-family: helvetica; font-size: 12px; }
+#wrapAknaKereso .menu_divider { font-family: helvetica; font-size: 2px; }
+#wrapAknaKereso .focus_box { width: 40; position: absolute; z-index: 2; top: 10; left: -200; }
+#wrapAknaKereso #sweeperAlert {
+    background: url(images/minesweeper/alertWindow.png) no-repeat top left transparent;
+    width: 162px;
+    height: 65px;
+    padding: 39px 5px 22px 58px;
+    color: #000;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: middle;
+    display: none;
+    font-family: arial;
+    position: absolute;
+    top: 100px;
+    left: 155px;
+}
+#wrapAknaKereso #sweeperAlert.visibleAlert {
+	display: table-cell;
+}
+#wrapAknaKereso {
+	background-color: #C0C0C0;
+}
+	</style>
+</head>
+
+<script src="../jquery-1.12.4.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<body onclick="clickInBrowser()" onload="initMines('Beginner');">
+
+<div id="wrapAknaKereso">
+	<div id="divMenuGame" style="position:absolute; visibility:hidden; width:150px; left:10px; top:30px; z-index:1;">
+	  <table border="1" bgcolor="#C0C0C0"><tr><td class="menu_item" nowrap="nowrap">
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked" name="imNew">&nbsp;<a onclick="return menuItemClick('New')">New &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; F2</a><br>
+		<hr>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked" name="imBeginner">&nbsp;<a onclick="menuItemClick('Beginner')">Beginner</a><br>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked" name="imIntermediate">&nbsp;<a onclick="menuItemClick('Intermediate')">Intermediate</a><br>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked" name="imExpert">&nbsp;<a onclick="menuItemClick('Expert')">Expert</a><br>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked" name="imCustom">&nbsp;<a onclick="menuItemClick('Custom')">&nbsp;&nbsp;&nbsp;</a><br>
+		<hr>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked">&nbsp;<a onclick="return menuItemClick('Personal')">Personal&nbsp;Best</a><br>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked">&nbsp;<a onclick="return menuItemClick('World')">World&nbsp;Champs</a>&nbsp;<br>
+		<hr>
+		<img src="images/minesweeper/notchecked.gif" width="10" height="10" alt="not checked" name="imExit">&nbsp;<a onclick="return menuItemClick('Exit')">Exit</a><br>
+	  </td></tr></table>
+	</div>
+	<div id="divMenuOpt" style="position:absolute; visibility:hidden; width:150px; left:53px; top:30px; z-index:1;">
+	  <table border="1" bgcolor="#C0C0C0"><tr><td class="menu_item" nowrap="nowrap">
+		<a onclick="return menuItemClick('First')" title="The first move will always open a useful series of squares">                     <img src="images/minesweeper/checked.gif" alt="checked" name="imFirst" border="0" width="10" height="10">&nbsp;Opening&nbsp;Move</a><br>
+		<a onclick="return menuItemClick('Marks')" title="Second left-click changes bomb marking to a question mark">                       <img src="images/minesweeper/checked.gif" alt="checked" name="imMarks" border="0" width="10" height="10">&nbsp;Marks (?)</a><br>
+		<a onclick="return menuItemClick('Area')" title="Clicking on numbered/satisfied square will open all its neighbors">               <img src="images/minesweeper/checked.gif" alt="checked" name="imUseMacro" border="0" width="10" height="10">&nbsp;Area Open</a><br>
+		<a onclick="return menuItemClick('Remaining')" title="When 0 bombs are left unmarked, click the bomb counter 000 to open all remaining"><img src="images/minesweeper/checked.gif" alt="checked" name="imRemaining" border="0" width="10" height="10">&nbsp;Open&nbsp;Remaining</a>&nbsp;<br>
+	  </td></tr></table>
+	</div>
+	<div id="divMenuHelp" style="position:absolute; visibility:hidden; width:110px; left:110px; top:30px; z-index:1;">
+	  <table border="1" bgcolor="#C0C0C0"><tr><td class="menu_item" nowrap="nowrap">
+		&nbsp;<a onclick="return menuItemClick('About')">About</a><br>
+		<hr>
+		&nbsp;<a onclick="return menuItemClick('Instructions')">Instructions</a><br>
+	  </td></tr></table>
+	</div>
+	<table width="150" border="0" cellspacing="0" cellpadding="0" class="menu_margin">
+	<tr>
+	<td class="menu_title">&nbsp;</td>
+	<td width="43" class="menu_title"><a onclick="return menuClick('divMenuGame')" onmouseover="return menuMouseOver('divMenuGame')">Game</a></td>
+	<td width="55" class="menu_title"><a onclick="return menuClick('divMenuOpt')" onmouseover="return menuMouseOver('divMenuOpt')">Options</a></td>
+	<td width="50" class="menu_title"><a onclick="return menuClick('divMenuHelp')" onmouseover="return menuMouseOver('divMenuHelp')">Help</a></td>
+	</tr>
+	</table>
+	<div class="focus_box">
+	<form name="checkForm" action="ignore"><input type="checkbox" onclick="cellRightClick()" name="modeCheck"></form>
+	</div>
+	<div id="aknaKereso">
+	</div>
+	<div id="sweeperAlert">
+		Uzenet ami az alert boxban latszik: alertBox(uzenet)
+	</div>
+</div>
+
+</body>
+</html>

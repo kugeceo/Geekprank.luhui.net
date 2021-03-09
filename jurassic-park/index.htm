@@ -1,0 +1,248 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<script src="../ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="../ui/1.12.1/jquery-ui.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="../ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Jurassic Park Computer Hack Screen</title>
+    <link rel="canonical" href="index.htm">
+    <meta name="description" content="Relive the Jurassic Park (1993) movie, using the computer system as seen on the movie. Simulating the fence and power malfuncion virus screen.">
+    <meta name="keywords" content="Jurassic Park,computer">
+    <meta property="og:title" content="Jurassic Park Computer Hack Screen">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geekprank.com/jurassic-park/">
+    <meta property="og:image" content="https://geekprank.com/jurassic-park/og.jpg">
+    <meta property="og:description" content="Relive the Jurassic Park (1993) movie, using the computer system as seen on the movie. Simulating the fence and power malfuncion virus screen.">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+	<div class="mobileWarning">There were no mobile phones in 1993! <br>Try this Jurassic Park computer simulator on a desktop computer,<br>or check out the <a href="console/index.htm">Jurassic Park Console Simulator</a>,<br>or go back to the <a href="../index.htm">Home Page</a>!</div>
+	<div id="window" class="bordered">
+		<div id="innerWindow" class="bordered">
+			<div id="colLeft">
+				<div id="wrapMap">
+					<div id="mapWarnings">
+						<div id="mapWarning1">
+							Fence failure !
+						</div>
+						<div id="mapWarning2">
+							Fence failure !
+						</div>
+						<div id="mapWarning3">
+							Fence failure !
+						</div>
+						<div id="mapWarning4">
+							Fence failure !
+						</div>
+						<div id="mapWarningM">
+							Major Malfunction !
+						</div>
+					</div>
+					<div id="fences">
+						<div id="fence7" class="hidden"></div>	<!-- class="gif" -->
+						<div id="fence6" class="hidden"></div>
+						<div id="fence5" class="hidden"></div>
+						<div id="fence4" class="hidden"></div>
+						<div id="fence3" class="hidden"></div>
+						<div id="fence2" class="hidden"></div>
+						<div id="fence1" class="hidden"></div>
+						<div id="fence0" class="hidden"></div>
+					</div>
+					<div id="unarmed">
+						Unarmed
+					</div>
+					<div class="sidebar">
+						<div>
+							<h2>Location</h2>
+							<br>main:<br><br>x = 90<br>y = 73<br>z = 12<br><br>
+						</div>
+						<div>
+							<h2>Security</h2>
+						</div>
+						<div>
+							<h2>Power</h2>
+						</div>
+						<div>
+							<h2>Fence</h2>
+						</div>
+						<div>
+							<h2>Area</h2>
+							<br>entry<br><br>
+							t099<br>
+							t098<br>
+							t097<br>
+							t096<br>
+							t096<br>
+							z00h<br>
+							z02h<br>
+							z04h<br>
+							z06h<br>
+							z08h<br>
+							<br>
+							g234<br>
+							g235<br>
+							g236<br>
+							g237<br>
+							<br>
+						</div>
+					</div>
+					<div id="fenceMap">
+						<div>
+							<div id="marker">
+							</div>
+						</div>
+					</div>
+					<div class="sidebar">
+						<div>
+							<h2>Keys</h2>
+							<br>
+							cx y01<br>
+							cx y02<br>
+							cx y03<br>
+							cx y04<br>
+							cx y05<br>
+							cx y06<br>
+							cx y07<br>
+							cx y08<br>
+							<br><br>
+							jq w<br>
+							jq 10<br>
+							jq 09<br>
+							jq 08<br>
+							jq 07<br>
+							jq 06<br>
+							jq 05<br>
+							jq 04<br>
+							jq 03<br>
+							jq 02<br>
+							jq 01<br>
+							jq 00<br><br>
+						</div>
+						<div>
+							<h2>Level</h2>
+							<br><span>L<br>
+							H<br>
+							1<br>
+							2<br>
+							3<br>
+							LL<br>
+							HH2</span><br><br>
+						</div>
+					</div>
+					<div id="tourRunning">
+						<div></div>
+						Tour Running
+					</div>
+				</div>
+				
+				<div id="yellowTable">
+					<div>
+						<div>LEVEL</div>
+						<span>G</span>
+					</div>
+					<div id="yellowTableMiddle">
+						<div>Tour Surveillance</div><div>VIEW: TBA where2 ba chase3</div>
+					</div>
+					<div>
+						<div>LEVEL</div>
+						<span>G</span>						
+					</div>
+				</div>
+				
+				<div id="wrapPaddockScreen" class="bordered">
+					<div id="paddockScreen">
+						Isla Nublar, Costa Rica
+					</div>						
+				</div>
+			</div>
+			<div id="colRight" class="bordered">
+				<div id="vehicleScreen">
+					<div class="tabsHeader">
+						<span class="active">Vehicle</span>
+						<span>Tour</span>
+						<span>Power</span>
+						<span>Time</span>
+					</div>
+					<div id="thisVehicle" class="bordered">
+						<div id="thisVehicleInner">
+							<div class="vehicleTrack">
+								<div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+							</div>
+							<div id="track2" class="vehicleTrack">
+								<div><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>	
+							</div>
+							<em>vehicle status</em>
+							<em>headlights on</em>
+							<strong id="carSpeed">12</strong>
+							<strong id="notResponding">Not Responding</strong>
+							<span>Vehicle type: <br>Ford explorer</span>
+							<div>exp 4<br>exp 5<br>exp 6<br>exp 7
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div id="buttons" class="clearfix">
+					<span>Hold</span>
+					<span>Quit</span>
+					<span>New</span>
+					<span>Next</span>
+					<span class="half">&#9668;&#9668;</span>
+					<span class="half">&#9658;&#9658;</span>
+					<span class="half active">&#9658;</span>
+					<span class="half">&#9632;</span>
+				</div>
+				
+				<div id="glitchesScreen">
+					<div class="tabsHeader">
+						<span class="active">Glitches</span>
+						<span>Maps</span>
+						<span>System</span>
+						<span>Emerg.</span>
+					</div>
+					<div id="glitchesList" class="bordered">
+						<ul>
+							<li>Vehicle Inspection</li>
+							<li>Eugeno Remirez-mechanic</li>
+							<li>Muffler Bearings frozen</li>
+							<li>Drive Trainer- Brian Elliot</li>
+							<li>Headlights On</li>
+							<li>Wind Main Clutch Belt</li>
+						</ul>
+					</div>
+				</div>
+
+					
+				<div id="sysIcons">
+					<div id="sysIconsInner">
+						<span>Trash</span>
+						<span>MiniArray 1 G</span>
+						<span>MiniArray 1 G</span>
+						<span>Macintosh HD</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<audio id="alarm" src="sound/alarm.mp3"></audio>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90658565-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+</body>
+
+</html>

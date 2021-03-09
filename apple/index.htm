@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Apple IOS Updating Screen Imitation with Kernel Panic</title>
+	<link rel="canonical" href="index.htm">
+	<link rel="amphtml" href="mobile.html">
+	<meta name="description" content="Prank your Apple user friends with this fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen.">
+	<meta name="keywords" content="fake,apple,update,screen">	
+	<meta property="fb:admins" content="johnny.johnson1986">
+	<meta property="og:title" content="Apple IOS Updating Screen Imitation with Kernel Panic">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://geekprank.com/apple/">
+	<meta property="og:image" content="https://geekprank.com/apple/social.jpg">
+	<meta property="og:description" content="Prank your Apple user friends with this fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen.">
+	<script src="../jquery-1.12.4.js"></script>
+	<script type="text/javascript">
+		var loc = window.location.href+'';
+		if (loc.indexOf('http://')==0){
+			window.location.href = loc.replace('http://','https://');	// https redirect
+		}
+		var introClosed = 0;
+		$(document).ready(function () {
+			$(".wrap").click(function(event) {
+				if (introClosed == 1) {
+					panic();
+				}
+			});	
+			$(".close").click(function(e) {
+				close();
+			});
+			
+		});
+		function panic() {
+			$('#error').show();
+			$('#loading').css("opacity",0);
+		}
+		function fullscreen() {
+			var isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) ||
+				(document.webkitFullscreenElement && document.webkitFullscreenElement !== null) ||
+				(document.mozFullScreenElement && document.mozFullScreenElement !== null) ||
+				(document.msFullscreenElement && document.msFullscreenElement !== null);
+
+			var docElm = document.documentElement;
+			if (!isInFullScreen) {
+				
+				if (docElm.requestFullscreen) {
+					docElm.requestFullscreen();
+				} else if (docElm.mozRequestFullScreen) {
+					docElm.mozRequestFullScreen();
+				} else if (docElm.webkitRequestFullScreen) {
+					docElm.webkitRequestFullScreen();
+				} else if (docElm.msRequestFullscreen) {
+					docElm.msRequestFullscreen();
+				}
+			} else {
+
+				if (document.exitFullscreen) {
+					document.exitFullscreen();
+				} else if (document.webkitExitFullscreen) {
+					document.webkitExitFullscreen();
+				} else if (document.mozCancelFullScreen) {
+					document.mozCancelFullScreen();
+				} else if (document.msExitFullscreen) {
+					document.msExitFullscreen();
+				}
+			}
+		}
+		$(document).keydown(function(e) {
+			if (introClosed == 1) {
+				panic();
+			}
+			 if (e.key === "Escape") {
+				close();
+			}
+		});
+		function close() {
+			introClosed = 1;
+			$("#welcome").fadeOut(222);
+			$("body").addClass("nocursor");
+		}
+		
+	</script>
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async="true">
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://quantcast.mgr.consensu.org'
+    .concat('/choice/', 'xncav4ssEzwLp', '/', host, '/choice.js')
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            event.source.postMessage(returnMsg, '*');
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script data-cfasync="false">var freestar = freestar || {};freestar.hitTime = Date.now();freestar.queue = freestar.queue || [];freestar.config = freestar.config || {};freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;freestar.config.enabled_slots = [];!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/geekprank-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }</script>
+<style>
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block}body {line-height: 1}ol, ul {list-style: none}blockquote, q {quotes: none}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none}table {border-collapse: collapse;border-spacing: 0}
+.center {width: 100%;margin: 0px auto;position: absolute;bottom: 20%;text-align: center}
+.alignCenter {text-align:center}
+.logo-container{text-align:center!important}
+.noverflow{max-width: 100%;overflow: hidden}
+#welcome {background: rgba(239, 244, 255, 0.9);color: #333;position: absolute;z-index: 11;bottom: 0;left: 10%;right: 10%;font-family: arial;padding: 5px 30px 8px;border-radius: 10px 10px 0 0;font-weight: bold;line-height: 20px;font-size: 17px;border: 3px solid #222;border-bottom: none;text-align: center;cursor: auto}
+.wrap {position: absolute;top: 0;left: 0;min-width: 100%;min-height: 100%;margin: 0;padding: 0;text-align: center;display: block;background-color: #FFF;user-select:none;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;vertical-align:middle;text-align:center;margin:0;padding:0}
+body.nocursor {cursor: none}
+#error {position: fixed;top: 0;left: 0;text-align: left;padding: 5px;font-family: "Lucida Console",Monaco,monospace;line-height: 17px;font-size: 14px;max-width: 100%;overflow: hidden;display: none}
+#error > span {display: inline-block;background-color: #000;color: #FFF;padding: 0px 4px}
+#loading {width: 50%;max-width: 500px;margin: auto;background: #B6B6B6;border-radius: 5px;overflow: hidden}
+#percent {height: 5px;width: 10%;background: #444;-webkit-animation-name: growing;-webkit-animation-duration: 200s;-webkit-animation-iteration-count: infinite;animation-name: growing;animation-duration: 200s;animation-iteration-count: infinite;animation-timing-function: linear}
+@keyframes growing {0%   {width: 0%}
+60% {width: 80%}
+61%   {width: 60%}
+100% {width: 99%}
+}
+svg {fill: #444;display: inline-block;width: 125px;height: 125px;margin: 0 0 50px 0}
+#closeSettings {cursor: pointer;display: inline-block;border: 3px solid #000000;width: 29px;height: 29px;text-align: center;line-height: 29px;background-color: #ffffff;font-weight: bold;font-size: 29px;border-radius: 20px;position: absolute;color: #000000;font-family: arial;top: -18px;right: -15px;background: #ff5757}
+.bigButton {text-decoration: none !important;font-size: 20px;background: #29618a;color: #FFF !important;display: inline-block;padding: 5px 12px;cursor: pointer;margin: 5px 10px 10px;border-radius: 20px;font-weight: bold;line-height: 25px}
+.bigButton span {color: #ffe309}
+@media screen and (max-width: 600px) {
+svg {width: 100px;height: 100px}
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<div class="center">
+			<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="170px" viewbox="0 0 170 170" version="1.1">
+			 <path d="m150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.197-2.12-9.973-3.17-14.34-3.17-4.58 0-9.492 1.05-14.746 3.17-5.262 2.13-9.501 3.24-12.742 3.35-4.929 0.21-9.842-1.96-14.746-6.52-3.13-2.73-7.045-7.41-11.735-14.04-5.032-7.08-9.169-15.29-12.41-24.65-3.471-10.11-5.211-19.9-5.211-29.378 0-10.857 2.346-20.221 7.045-28.068 3.693-6.303 8.606-11.275 14.755-14.925s12.793-5.51 19.948-5.629c3.915 0 9.049 1.211 15.429 3.591 6.362 2.388 10.447 3.599 12.238 3.599 1.339 0 5.877-1.416 13.57-4.239 7.275-2.618 13.415-3.702 18.445-3.275 13.63 1.1 23.87 6.473 30.68 16.153-12.19 7.386-18.22 17.731-18.1 31.002 0.11 10.337 3.86 18.939 11.23 25.769 3.34 3.17 7.07 5.62 11.22 7.36-0.9 2.61-1.85 5.11-2.86 7.51zm-31.26-123.01c0 8.1021-2.96 15.667-8.86 22.669-7.12 8.324-15.732 13.134-25.071 12.375-0.119-0.972-0.188-1.995-0.188-3.07 0-7.778 3.386-16.102 9.399-22.908 3.002-3.446 6.82-6.3113 11.45-8.597 4.62-2.2516 8.99-3.4968 13.1-3.71 0.12 1.0831 0.17 2.1663 0.17 3.2409z"></path>
+			</svg>
+			<div id="loading"><div id="percent"></div></div>
+		</div>
+		<div id="error">
+			<span>
+			Please contact the Voodoo Kernel dev-team with a photo of the</span><br><span>
+			information printed below, along with a description of your</span><br><span>
+			system configuration and what you were doing at the time that</span><br><span>
+			the kernel panic occured. We apologize for the inconvenience.</span><br><span>
+			</span><br><span>
+			panic(cpu 1 caller 0x001A8FFD): Kernel trap at 0x00197f41, type 14=page fault, registers:</span><br><span>
+			CRO: 0x8001003b, CR2:0x33ec3000, CR3: 0x00dda000, CR4: 0x00000660</span><br><span>
+			EAX: 0x00000000, EBX:0x401pod40, ECX: 0x00c3d400, EDX: 0x000035d4</span><br><span>
+			CR2: 0x000sq03b, EBP:0x000w4500, ESI: 0x00dda000, EDI: 0x00056y60</span><br><span>
+			EFL: 0x000rew3b, EIP:0x000c34w0, CS1: 0x00dda000, DS0: 0x01000030</span><br><span>
+			</span><br><span>
+			Debugger called: &lt;panic&gt;</span><br><span>
+			Backtrace (CPU 1), Frame : Return Address (4 potential args on stack)</span><br><span>
+			0x2df83c68 : 0x12b08c (0x45bcf0 0x2df83c9c 0x133119)</span><br><span>
+			0x23hs0008 : 0x00qw90 (0x4sdff0 0x200sd673)</span><br><span>
+			0x0000rt00 : 0x78sdff (0x00bcdf 0x45fddf)</span><br><span>
+			0x110000wq : 0x00dfss (0x0000f0 0x00000000 0x00fdg0)</span><br><span>
+			Backtrace terminated-invalid frame pointer 0</span><br><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kernel loadable modules in backtrace (with depencencies): </span><br><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; com.apple.iokit.IOAudioFamily(1.6.5fc3)@0x2dfcc000-&gt;0x2dfe2fff</span><br><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dependency: com.apple.kext.OSvKernDSPLib(1.1)@0x2dfc9000</span><br><span>
+			</span><br><span>
+			BSD process name corresponding to current thread: kernel_task</span><br><span>
+			MAC OS version: 9G55</span><br><span>
+			Kernel version: Darwin Kernel Version 9.5.0: Sat Dec 6 19:39:54 IST 2017;Voodo; Release 1.0</span><br><span>
+			</span>
+		</div>
+	</div>
+	<div id="welcome">
+		<div id="closeSettings" class="close">&times;</div>		
+		<p>Prank your Apple user friends with this fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen.</p>
+		<p class="alignCenter">
+			<div class="bigButton close">
+				Close <span>Esc</span>
+			</div>
+			<div class="bigButton" onclick="fullscreen()">
+				Full&nbsp;Screen <span>F11</span>
+			</div>
+		
+		<div class="noverflow">
+			<div align="center" id="geekprank_apple_leaderboard_atf"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "geekprank_apple_leaderboard_atf", slotId: "geekprank_apple_leaderboard_atf" });</script></div>
+		</div>
+	</div>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  ga('create', 'UA-90658565-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</body>
+</html>

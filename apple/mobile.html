@@ -1,0 +1,297 @@
+﻿<!doctype html>
+<html amp="" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apple IOS Updating Screen Imitation with Kernel Panic</title>
+    <link rel="canonical" href="index.htm">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta name="description" content="Prank your Apple user friends with this fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen.">
+	<meta property="og:title" content="Apple IOS Update Prank">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://geekprank.com/apple/">
+	<meta property="og:image" content="https://geekprank.com/apple/social.jpg">
+
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Webpage",
+    "url": "https://geekprank.com/apple/",
+    "name": "Apple IOS Update Prank",
+    "headline": "Prank your Apple user friends with this fake IOS upgrade.",
+    "description": "Prank your Apple user friends with this fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen.",
+	"author": "fricikoma",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://geekprank.com/"
+    },
+	"publisher": {
+	  "@type": "Organization",
+	  "name": "Geek Prank",
+	  "logo": {
+		  "url": "https://geekprank.com/images/screenshot.jpg",
+		  "width": 800,
+		  "height": 622,
+		  "@type": "ImageObject"
+	  }
+	},
+	"image": {
+	  "@type": "ImageObject",
+	  "url": "https://geekprank.com/images/screenshot.jpg",
+	  "width": 800,
+	  "height": 622
+	}
+  }
+  </script>
+    <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<style amp-custom="">
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;
+}
+body {line-height: 1;
+}
+ol, ul {list-style: none;
+}
+blockquote, q {quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {content: '';
+content: none;
+}
+table {border-collapse: collapse;
+border-spacing: 0;
+}
+
+.center {width: 100%;
+margin: 0px auto;
+bottom: 20%;
+text-align: center;
+}
+
+.alignCenter {text-align:center;
+}
+#welcome {
+    background: rgba(239, 244, 255, 0.9);
+    color: #333;
+    z-index: 11;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    font-family: arial;
+    padding: 5px 30px 8px;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 17px;
+    border: 3px solid #222;
+    border-bottom: none;
+    text-align: center;
+    cursor: auto;
+    display: none;
+}
+.wrap {
+top: 0;
+left: 0;
+min-width: 100%;
+min-height: 100%;
+margin: 0;
+padding: 0;
+text-align: center;
+display: block;
+background-color: #FFF;
+user-select:none;
+-moz-user-select:none;
+-webkit-user-select:none;
+-ms-user-select:none;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+vertical-align:middle;
+text-align:center;
+margin:0;
+padding:0;
+cursor: none;
+}
+
+#error {position: fixed;
+top: 0;
+left: 0;
+text-align: left;
+padding: 5px;
+font-family: "Lucida Console",Monaco,monospace;
+line-height: 17px;
+font-size: 14px;
+max-width: 100%;
+overflow: hidden;
+display: none;
+}
+
+#error > span {display: inline-block;
+background-color: #000;
+color: #FFF;
+padding: 0px 4px;
+}
+
+#loading {width: 50%;
+max-width: 500px;
+margin: auto;
+background: #B6B6B6;
+border-radius: 5px;
+overflow: hidden;
+}
+
+#percent {height: 5px;
+width: 10%;
+background: #444;
+-webkit-animation-name: growing;
+-webkit-animation-duration: 200s;
+-webkit-animation-iteration-count: infinite;
+animation-name: growing;
+animation-duration: 200s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+@keyframes growing {0%   {width: 0%;
+}
+
+60% {width: 80%}
+
+61%   {width: 60%;
+}
+
+100% {width: 99%}
+
+}
+
+#closeSettings {cursor: pointer;
+display: inline-block;
+border: 3px solid #000000;
+width: 29px;
+height: 29px;
+text-align: center;
+line-height: 29px;
+background-color: #ffffff;
+font-weight: bold;
+font-size: 29px;
+border-radius: 20px;
+color: #000000;
+font-family: arial;
+top: -18px;
+right: -15px;
+background: #ff5757;
+}
+
+.bigButton {text-decoration: none;
+font-size: 20px;
+background: #29618a;
+color: #FFF;
+display: inline-block;
+padding: 5px 12px;
+cursor: pointer;
+margin: 5px 10px 10px;
+border-radius: 20px;
+font-weight: bold;
+line-height: 25px;
+}
+.wrapImg {
+    max-width: 120px;
+    margin: 300px auto 50px;
+}
+
+.bigButton span {color: #ffe309;
+}
+
+@media screen and (max-height: 620px) {
+	.wrapImg {
+		margin: 200px auto 50px;
+	}
+}
+@media screen and (max-height: 520px) {
+	.wrapImg {
+		margin: 100px auto 50px;
+	}
+}
+@media screen and (max-height: 420px) {
+	.wrapImg {
+		margin: 20px auto 50px;
+	}
+}
+
+	</style>
+    <script async="" src="../v0.js"></script>
+    <script async="" custom-element="amp-analytics" src="../v0/amp-analytics-0.1.js"></script>
+  </head>
+  <body>
+	<div class="wrap">
+		<div class="center">
+			<div class="wrapImg">
+				<amp-img width="110" height="110" layout="responsive" src="apple-ios-upgrade-prank.svg"></amp-img>
+			</div>
+			<div id="loading"><div id="percent"></div></div>
+		</div>
+		<div id="error">
+			<span>
+			Please contact the Voodoo Kernel dev-team with a photo of the</span><br><span>
+			information printed below, along with a description of your</span><br><span>
+			system configuration and what you were doing at the time that</span><br><span>
+			the kernel panic occured. We apologize for the inconvenience.</span><br><span>
+			</span><br><span>
+			panic(cpu 1 caller 0x001A8FFD): Kernel trap at 0x00197f41, type 14=page fault, registers:</span><br><span>
+			CRO: 0x8001003b, CR2:0x33ec3000, CR3: 0x00dda000, CR4: 0x00000660</span><br><span>
+			EAX: 0x00000000, EBX:0x401pod40, ECX: 0x00c3d400, EDX: 0x000035d4</span><br><span>
+			CR2: 0x000sq03b, EBP:0x000w4500, ESI: 0x00dda000, EDI: 0x00056y60</span><br><span>
+			EFL: 0x000rew3b, EIP:0x000c34w0, CS1: 0x00dda000, DS0: 0x01000030</span><br><span>
+			</span><br><span>
+			Debugger called: &lt;panic&gt;</span><br><span>
+			Backtrace (CPU 1), Frame : Return Address (4 potential args on stack)</span><br><span>
+			0x2df83c68 : 0x12b08c (0x45bcf0 0x2df83c9c 0x133119)</span><br><span>
+			0x23hs0008 : 0x00qw90 (0x4sdff0 0x200sd673)</span><br><span>
+			0x0000rt00 : 0x78sdff (0x00bcdf 0x45fddf)</span><br><span>
+			0x110000wq : 0x00dfss (0x0000f0 0x00000000 0x00fdg0)</span><br><span>
+			Backtrace terminated-invalid frame pointer 0</span><br><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kernel loadable modules in backtrace (with depencencies): </span><br><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; com.apple.iokit.IOAudioFamily(1.6.5fc3)@0x2dfcc000-&gt;0x2dfe2fff</span><br><span>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dependency: com.apple.kext.OSvKernDSPLib(1.1)@0x2dfc9000</span><br><span>
+			</span><br><span>
+			BSD process name corresponding to current thread: kernel_task</span><br><span>
+			MAC OS version: 9G55</span><br><span>
+			Kernel version: Darwin Kernel Version 9.5.0: Sat Dec 6 19:39:54 IST 2017;Voodo; Release 1.0</span><br><span>
+			</span>
+		</div>
+	</div>
+	<div id="welcome">
+		<div id="closeSettings">&times;</div>
+		<p>Prank your Apple user friends with this fake IOS upgrade screen which never ends and throws a Kernel panic error message when they hit a key or touch the screen.</p>
+		<p class="alignCenter">
+			<div class="bigButton">
+				Close <span>Esc</span>
+			</div>
+			<div class="bigButton">
+				Full&nbsp;Screen <span>F11</span>
+			</div>
+		
+	</div>
+	
+    <amp-analytics type="googleanalytics">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-90658565-1"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
+  </body>
+</html>

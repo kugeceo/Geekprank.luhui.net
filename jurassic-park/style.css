@@ -1,0 +1,588 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+html,body{background: #8D9297;font-family: Arial, Helvetica, sans-serif;}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+#window {
+    width: 1080px;
+    height: 797px;
+    margin: 50px auto 0;
+    background: #7B7A7B;
+}
+.borderInner {
+    border: 2px solid #54545A;
+    box-shadow: 2px 2px 6px #ddd inset;
+    border-radius: 6px;
+    height: 99.5%;
+    overflow: hidden;
+}
+.bordered {
+    box-shadow: 2px 3px 5px #ddd;
+	border-radius: 6px;
+}
+#innerWindow {
+    margin: 12px 8px 0px 8px;
+    height: 770px;
+}
+#colLeft {
+	float: left;
+	width: 574px;
+	margin: 12px 0 0 12px;
+}
+#colRight {
+    float: right;margin: 12px 12px 0 0;
+    width: 454px;
+}
+#wrapMap {
+	position: relative;
+
+}
+#wrapPaddockScreen {
+	width: 100%;
+}
+#vehicleScreen, #glitchesScreen {
+    padding: 12px 16px 10px 16px;
+}
+#sysIconsInner {
+    height: 15px;
+    background: url(sprite.png) 0 -69px no-repeat transparent;
+    width: 410px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    padding: 46px 15px 0px 0;
+}
+#thisVehicleInner {
+    height: 319px;
+    background: url(sprite.png) 0 -197px no-repeat #515151;
+    width: 392px;
+    margin: 10px 10px 0;
+    border-right: 3px solid #000;
+    position: relative;
+}
+#thisVehicleInner > em {
+    color: #FFF;
+    display: inline-block;
+    padding: 4px 21px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+	cursor: pointer;
+}
+#thisVehicleInner > em:nth-child(2) {
+	color: #949494;
+}
+#thisVehicleInner > span {
+    color: #cecbcb;
+    position: absolute;
+    top: 232px;
+    font-size: 10px;
+    left: 198px;
+}
+#thisVehicleInner > strong {
+    color: #FFF;
+    position: absolute;
+    top: 195px;
+    left: 106px;
+    font-size: 22px;
+}
+#carSpeed {
+    width: 30px;
+    text-align: center;
+}
+#thisVehicleInner > strong#notResponding {
+    top: 190px;
+    left: 200px;	
+	font-size: 20px;
+	background: #fd4330;
+	padding: 3px 10px;
+	display: none;
+	font-style: italic;
+}
+
+#thisVehicleInner > div {
+    color: #FFF;
+    position: absolute;
+    top: 226px;
+    left: 42px;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 23px;
+}
+#thisVehicleInner > div:hover {
+	color: #DDD;
+	cursor: pointer;
+}
+#sysIconsInner span {
+    display: inline-block;
+    margin: 0px 8px 0px 4px;
+    font-size: 11px;
+    float: right;
+}
+#sysIcons {
+    padding: 2px 10px 5px;
+}
+.tabsHeader {
+    padding: 0 2px;
+    border: 2px solid #54545A;
+    background-color: #777777;
+    display: inline-block;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.tabsHeader span {
+    display: inline-block;
+    color: #c7c7c7;
+    font-size: 13px;
+    text-shadow: rgba(255,255,255,.1) -1px -1px 1px, rgba(0,0,0,.5) 1px 1px 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 2px 5px;
+    border: 2px solid #555;
+    box-shadow: 1px 1px 3px #fff inset;
+    border-radius: 2px;
+}
+.tabsHeader span:hover {
+	color: #FFF;
+}
+.tabsHeader span.active {
+    border: none;
+    color: #a7a7a7;
+    font-size: 16px;
+    box-shadow: none;
+    text-shadow: #e0e0e0 1px 1px 0;
+    font-weight: nor;
+}
+#thisVehicle {
+	background: #5C6571;
+}
+#glitchesList ul {
+    margin: 6px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 1px 1px 5px #555 inset;
+    border: 2px solid #555;
+	height: 174px;
+}
+#glitchesList ul li {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 13px;
+    background: url(sprite.png) 0 -156px no-repeat transparent;
+    padding: 0 0 0 83px;
+}
+#glitchesList ul li.failed {
+	background-position: 0 -131px;
+}
+#buttons {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 413px;
+}
+#buttons span {
+    background: #A1A699;
+    border: 1px solid #555;
+    display: block;
+    float: left;
+    width: 134px;
+    font-weight: bold;
+    line-height: 22px;
+    font-size: 18px;
+    cursor: pointer;
+    text-shadow: -1px -1px 2px #000, 1px 1px 3px #FFF;
+    color: #A1A699;
+}
+#buttons span.active {
+	background: #818679;
+	text-shadow: none;
+	color:#000;	
+}
+#buttons span.half {
+	width: 66px;
+}
+#buttons span:hover {
+	background: #919689;
+	text-shadow: none;
+	color:#CCC;
+}
+
+#wrapPaddockScreenSecond {
+    margin: 12px;
+}
+#paddockScreen {
+    background: url(sprite.png) 0 0 no-repeat transparent;
+    height: 30px;
+    padding: 10px 15px 10px 175px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: italic;
+    margin: 6px 8px 4px 20px;
+}
+.sidebar {
+    width: 50px;
+	display: inline-block;
+    color: #FFF;
+	vertical-align: top;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+}
+.sidebar span {
+    font-size: 14px;
+    line-height: 18px;
+}
+.sidebar > div {
+	background-color: #000;
+	padding: 1px;
+	margin-bottom: 15px;
+}
+.sidebar > div > h2 {
+    display: block;
+    background: #FFF;
+    color: #000;
+    text-transform: lowercase;
+    padding: 2px;
+}
+#fenceMap {
+    width: 465px;
+    height: 573px;
+    display: inline-block;
+    background: url(map.jpg) 0 0 no-repeat transparent;
+    box-shadow: 0px 0px 2px 2px #000 inset;
+    border-radius: 4px;
+}
+#fenceMap > div {
+	height: 100%;
+	width: 100%;
+}
+#marker {
+    background: url(sprite.png) -425px -140px no-repeat transparent;
+    width: 103px;
+    height: 57px;
+    position: absolute;
+    left: 352px;
+    top: 171px;
+}
+#mapWarnings {
+	border: 20px solid #FF0900;
+	position: absolute;
+	display: none;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;	
+}
+#mapWarnings div {
+    background: #FF0900;
+    color: #FFF;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 3px 10px;
+	position: absolute;
+	    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+#mapWarning1 {
+    font-size: 20px;
+    top: 0px;
+    left: 159px;
+    width: 200px;
+}
+#mapWarning2 {
+    font-size: 40px;
+    top: 247px;
+    right: -254px;
+    letter-spacing: 3px;
+    width: 526px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#mapWarning3 {
+    font-size: 20px;
+    bottom: 0px;
+    left: 159px;
+    width: 200px;
+}
+#mapWarning4 {
+    font-size: 40px;
+    top: 247px;
+    left: -254px;
+    letter-spacing: 3px;
+    width: 526px;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+#mapWarningM {
+    font-size: 20px;
+    top: 290px;
+    left: 114px;
+    width: 290px;
+}
+#yellowTable {
+    background: #E2E206;
+    padding: 10px 12px;
+    margin: 7px 0 4px;
+    color: #FFF;
+}
+#yellowTable > div {
+	display: inline-block;
+	vertical-align: top;
+}
+#yellowTable > div div {
+    background: #000;
+    font-size: 11px;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    line-height: 11px;
+}
+div#yellowTableMiddle {
+	margin: 0 5px;
+}
+#yellowTable > div#yellowTableMiddle div {
+	width: 401px;
+}
+#yellowTable > div span {
+    font-size: 35px;
+    background: #000;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 45px;
+}
+#yellowTableMiddle div:nth-child(1) {
+    font-size: 25px;
+    background: #000;
+    margin-bottom: 7px;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: italic;
+}
+#yellowTableMiddle div:nth-child(2) {
+    font-size: 14px;
+    line-height: 14px;
+    font-style: italic;
+    background: #000;
+}
+
+.vehicleTrack {
+    width: 96px;
+    overflow: hidden;
+    height: 20px;
+    top: 120px !important;
+    left: 0px !important;
+}
+.vehicleTrack > div {
+    width: 1000px;
+    position: relative;
+    left: -216px;
+}
+.vehicleTrack > div > span {
+    display: inline-block;
+    margin: 0 9px;
+    border-radius: 30px;
+    background: #FFF;
+    height: 14px;
+    width: 14px;
+}
+.vehicleTrack#track2 {
+    width: 51px;
+    left: auto !important;
+    right: 0;
+}
+
+#tourRunning {
+    width: 240px;
+    height: 65px;
+    position: absolute;
+    bottom: 6px;
+    background: #000;
+    color: #FFF;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 33px;
+    font-size: 22px;
+    text-align: center;
+    left: 165px;
+    padding: 3px;
+}
+#tourRunning > div {
+    background: url(sprite.png) -300px -531px no-repeat #002D07;
+    height: 32px;
+}
+
+#fences {
+    position: absolute;
+    width: 574px;
+    height: 573px;
+    overflow: hidden;
+}
+#fences > div {
+    width: 574px;
+    height: 573px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 53px;
+}
+#fences > div.hidden {background: none !important;}
+#fence0 {	background-image: url(fence/p0.png);	}
+#fence1 {	background: url(fence/p1.png) 80px 276px no-repeat transparent;	}
+#fence2 {	background: url(fence/p2.png) 288px 224px no-repeat transparent;	}
+#fence3 {	background: url(fence/p3.png) 142px 166px no-repeat transparent;	}
+#fence4 {	background: url(fence/p4.png) 12px 151px no-repeat transparent;	}
+#fence5 {	background: url(fence/p5.png) 49px 68px no-repeat transparent;	}
+#fence6 {	background: url(fence/p6.png) 191px 7px no-repeat transparent;	}
+#fence7 {	background: url(fence/p7.png) 166px 99px no-repeat transparent;	}
+
+.gif#fence0 {	background-image: url(fence/p0.gif);	}
+.gif#fence1 {	background: url(fence/p1.gif) 80px 276px no-repeat transparent;	}
+.gif#fence2 {	background: url(fence/p2.gif) 288px 224px no-repeat transparent;	}
+.gif#fence3 {	background: url(fence/p3.gif) 142px 166px no-repeat transparent;	}
+.gif#fence4 {	background: url(fence/p4.gif) 12px 151px no-repeat transparent;	}
+.gif#fence5 {	background: url(fence/p5.gif) 49px 68px no-repeat transparent;	}
+.gif#fence6 {	background: url(fence/p6.gif) 191px 7px no-repeat transparent;	}
+.gif#fence7 {	background: url(fence/p7.gif) 166px 99px no-repeat transparent;	}
+
+#unarmed {
+	background: #c60000;
+	position: absolute;
+	left: 257px;
+	top: 396px;
+	display: none;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: italic;
+	padding: 3px 10px;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+#yellowTable > div.exclamationmark div {
+	color: #c60000;
+	background-color: transparent;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.mobileWarning {
+    display: none;
+    padding: 30px 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+@media screen and (max-width: 1088px){
+	body {
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-o-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+}
+
+@media screen and (max-width: 970px){
+	body {
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	#colRight {
+		display: none;
+	}
+	#window {
+		width: 619px;
+	}
+}
+
+@media screen and (max-width: 755px){
+	#window {
+		margin-top: 10px;
+	}
+}
+
+
+@media screen and (max-width: 640px){
+	.sidebar, #wrapPaddockScreen {
+		display: none;
+	}
+	#window {
+		width: 505px;
+		height: 720px;
+	}
+	#yellowTable > div#yellowTableMiddle div {
+		width: 298px;
+	}
+	#innerWindow {
+		margin: 12px 8px 0px 8px;
+		height: 698px;
+	}
+	#tourRunning {
+		left: 120px;	
+	}
+	#fences > div {
+		left: 0px;
+	}
+}
+
+
+@media screen and (max-width: 512px){
+	.mobileWarning {
+		display: block;
+	}
+	#window {
+		display: none;
+	}
+	html,body{background: #EEE;}
+}
+
+
+
+

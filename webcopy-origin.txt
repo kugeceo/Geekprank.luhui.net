@@ -1,0 +1,1552 @@
+Uri: https://geekprank.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/mobile/
+File Name: C:\Downloaded Web Sites\geekprank.com\mobile\index.htm
+Content Type: text/html
+
+Uri: https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css
+File Name: C:\Downloaded Web Sites\geekprank.com\ui\1.12.1\themes\base\jquery-ui.css
+Content Type: text/css
+
+Uri: https://geekprank.com/style.css?v=20oct21
+File Name: C:\Downloaded Web Sites\geekprank.com\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/hacker/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/chat-screenshot/
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/fake-virus/
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/fbi-warning/
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/apple/
+File Name: C:\Downloaded Web Sites\geekprank.com\apple\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/winxp-update/
+File Name: C:\Downloaded Web Sites\geekprank.com\winxp-update\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/win7-update/
+File Name: C:\Downloaded Web Sites\geekprank.com\win7-update\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/win10-update/
+File Name: C:\Downloaded Web Sites\geekprank.com\win10-update\index.htm
+Content Type: text/html
+
+Uri: https://pestgame.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index-1.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/bios/
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/pipes/
+File Name: C:\Downloaded Web Sites\geekprank.com\pipes\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/matrix-code-rain/
+File Name: C:\Downloaded Web Sites\geekprank.com\matrix-code-rain\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/static-tv-noise/
+File Name: C:\Downloaded Web Sites\geekprank.com\static-tv-noise\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/cracked-screen/
+File Name: C:\Downloaded Web Sites\geekprank.com\cracked-screen\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/jurassic-park/
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\index.htm
+Content Type: text/html
+
+Uri: https://scam-numbers.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index-2.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/xp-simulator.php
+File Name: C:\Downloaded Web Sites\geekprank.com\xp-simulator.php.html
+Content Type: text/html
+
+Uri: https://geekprank.com/terms-and-conditions.php
+File Name: C:\Downloaded Web Sites\geekprank.com\terms-and-conditions.php.html
+Content Type: text/html
+
+Uri: https://geekprank.com/sitemap.php
+File Name: C:\Downloaded Web Sites\geekprank.com\sitemap.php.html
+Content Type: text/html
+
+Uri: https://code.jquery.com/jquery-1.12.4.js
+File Name: C:\Downloaded Web Sites\geekprank.com\jquery-1.12.4.js
+Content Type: application/javascript
+
+Uri: https://code.jquery.com/ui/1.12.1/jquery-ui.js
+File Name: C:\Downloaded Web Sites\geekprank.com\ui\1.12.1\jquery-ui.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/scripts.js?v=20oct21
+File Name: C:\Downloaded Web Sites\geekprank.com\scripts.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/images/background.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\background.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/minesweeper/index.html
+File Name: C:\Downloaded Web Sites\geekprank.com\minesweeper\index.html
+Content Type: text/html
+
+Uri: https://geekprank.com/tetris/index.html
+File Name: C:\Downloaded Web Sites\geekprank.com\tetris\index.html
+Content Type: text/html
+
+Uri: https://geekprank.com/images/toolbar1.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar1.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/toolbar2.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar2.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/toolbar3.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar3.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/toolbar-sep.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar-sep.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/toolbar4.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar4.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/toolbar5.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar5.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/toolbar6.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\toolbar6.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/pc-icon.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\pc-icon.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/greenGo.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\greenGo.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/dropup-ico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\dropup-ico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/wait.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\wait.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/open.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\open.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/pc.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\pc.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/phone.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\phone.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/screen.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\screen.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/close.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\close.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ico/prank.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ico\prank.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/windowslogo.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\windowslogo.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie1.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie1.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie2.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie2.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie3.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie3.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie4.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie4.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie5.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie5.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie-sep.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie-sep.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie6.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie6.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie7.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie7.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie8.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie8.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie9.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie9.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie10.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie10.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie11.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie11.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie12.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie12.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie-addressbar-ico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie-addressbar-ico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ieLinks.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ieLinks.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/iedone.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\iedone.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/iefooter.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\iefooter.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/default_icon.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\default_icon.jpg
+Content Type: image/jpeg
+
+Uri: https://www.googletagmanager.com/gtag/js?id=UA-90658565-1
+File Name: C:\Downloaded Web Sites\geekprank.com\gtag\js.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/images/welcome-icons.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\welcome-icons.png
+Content Type: image/png
+
+Uri: https://prettycoolsite.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index-3.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/boot-device-not-found/
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/fake-dos/
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/blue-death/
+File Name: C:\Downloaded Web Sites\geekprank.com\blue-death\index.htm
+Content Type: text/html
+
+Uri: https://cdn.ampproject.org/v0.js
+File Name: C:\Downloaded Web Sites\geekprank.com\v0.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-social-share-0.1.js
+File Name: C:\Downloaded Web Sites\geekprank.com\v0\amp-social-share-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-analytics-0.1.js
+File Name: C:\Downloaded Web Sites\geekprank.com\v0\amp-analytics-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-sidebar-0.1.js
+File Name: C:\Downloaded Web Sites\geekprank.com\v0\amp-sidebar-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-carousel-0.1.js
+File Name: C:\Downloaded Web Sites\geekprank.com\v0\amp-carousel-0.1.js
+Content Type: text/javascript
+
+Uri: https://cdn.ampproject.org/v0/amp-facebook-like-0.1.js
+File Name: C:\Downloaded Web Sites\geekprank.com\v0\amp-facebook-like-0.1.js
+Content Type: text/javascript
+
+Uri: https://geekprank.com/images/slider/insect-hunter-game.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\insect-hunter-game.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/hacker.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\hacker.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/pretty-cool-site.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\pretty-cool-site.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/fake-virus-screen-system-lock.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\fake-virus-screen-system-lock.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/computer-fbi-warning.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\computer-fbi-warning.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/never-ending-apple-ios-upload-screen.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\never-ending-apple-ios-upload-screen.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/prank-windows-xp-upgrade-screen.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\prank-windows-xp-upgrade-screen.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/infinite-windows7-update.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\infinite-windows7-update.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/windows-10-upgrade-loading.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\windows-10-upgrade-loading.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/online-dos-cmd-simulator.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\online-dos-cmd-simulator.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/bios-cmos-boot-setting-simulator.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\bios-cmos-boot-setting-simulator.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/matrix-rain-screen.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\matrix-rain-screen.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/black-white-tv-dots.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\black-white-tv-dots.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/cracked-monitor.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\cracked-monitor.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/jurassic-park.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\jurassic-park.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/windows-blue-death-screen-cmos-error-kernel-panic.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\windows-blue-death-screen-cmos-error-kernel-panic.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/welcome-icons.png?y=2019
+File Name: C:\Downloaded Web Sites\geekprank.com\images\welcome-icons-1.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/my_computer.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\my_computer.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/ie-ico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie-ico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/my_documents.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\my_documents.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/recycle_bin.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\recycle_bin.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/my_network_places.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\my_network_places.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/openwelcome.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\openwelcome.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/openmirc.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\openmirc.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/openinternet.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\openinternet.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/openwinamp.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\openwinamp.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/opentetris.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\opentetris.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/openminesweeper.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\openminesweeper.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/ie.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\ie.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/thunderbird.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\thunderbird.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/windows_media_player.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\windows_media_player.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/minesweeper.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\minesweeper.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/tetris.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\tetris.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/commandPrompt.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\commandPrompt.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/totalcommander.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\totalcommander.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/winamp.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\winamp.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/myrecent.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\myrecent.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/mymusic.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\mymusic.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/mycomp.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\mycomp.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/mynetwork.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\mynetwork.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/controlpanel.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\controlpanel.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/printers.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\printers.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/helpsupport.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\helpsupport.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/search.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\search.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/run.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\run.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/textdoc.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\textdoc.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/mywebsite.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\mywebsite.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/recent_arrows.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\recent_arrows.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/programs.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\programs.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/ie16.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\ie16.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/msn16.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\msn16.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/wm16.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\wm16.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/oe16.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\oe16.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/ra16.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\ra16.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/startmenu/wmp16.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\startmenu\wmp16.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/windows_update.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\windows_update.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/window_bar.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\window_bar.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/other/run_dialog.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\other\run_dialog.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/winamp-back.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\winamp-back.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/visualizer.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\images\visualizer.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/images/winamp-trail.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\winamp-trail.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/welcomeBuble.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\welcomeBuble.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/window_corners2.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\window_corners2.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/minesweeper-ico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\minesweeper-ico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/window_corners3.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\window_corners3.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/tetris-ico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\tetris-ico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/windowBottomBar.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\windowBottomBar.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/adocska.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\adocska.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/SREntryspan.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\SREntryspan.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/similarPages.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\similarPages.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/dropdown-ico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\dropdown-ico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/other/monitor.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\other\monitor.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/other/energy.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\other\energy.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/taskbar.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\taskbar.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/start_button.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\start_button.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/clock.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\clock.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/start_menu.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\start_menu.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/logoff.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\logoff.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/shutdown.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\shutdown.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/system_tray_arrow.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\system_tray_arrow.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/system_tray_gmail.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\system_tray_gmail.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/system_tray_lan.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\system_tray_lan.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/system_tray_winamp.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\system_tray_winamp.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/system_tray_msn.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\system_tray_msn.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/taskbar_resize.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\taskbar_resize.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/quick_launch_destkop.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\quick_launch_destkop.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/quick_launch_cmd.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\quick_launch_cmd.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/quick_launch_winamp.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\quick_launch_winamp.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/quick_launch_ie.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\quick_launch_ie.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/open_button.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\open_button.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/divider.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\divider.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/divider2.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\divider2.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/my_recent_side.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\my_recent_side.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/programs_arrow.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\programs_arrow.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/window_corners.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\window_corners.png
+Content Type: image/png
+
+Uri: https://geekprank.com/images/window_buttons.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\window_buttons.png
+Content Type: image/png
+
+Uri: https://www.microsoft.com/en-us/
+File Name: C:\Downloaded Web Sites\geekprank.com\en-us\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/amp/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\amp\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/hacker.css?x=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hacker.css
+Content Type: text/css
+
+Uri: https://geekprank.com/hacker/simulador/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\simulador\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/simulador-pt/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\simulador-pt\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/simulateur/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\simulateur\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/simulator/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\simulator\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/simulatoru/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\simulatoru\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/typer/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\typer\index.htm
+Content Type: text/html
+
+Uri: https://html-online.com/articles/geek-hacker-typer/
+File Name: C:\Downloaded Web Sites\geekprank.com\articles\geek-hacker-typer\index.htm
+Content Type: text/html
+
+Uri: https://textfancy.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index-4.htm
+Content Type: text/html
+
+Uri: https://en.wikipedia.org/wiki/White_hat_(computer_security)
+File Name: C:\Downloaded Web Sites\geekprank.com\wiki\White_hat_(computer_security).html
+Content Type: text/html
+
+Uri: https://geekprank.com/hacker/jquery-jqui.js
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\jquery-jqui.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/hacker/geek-hacker-typer.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\geek-hacker-typer.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/hacker/wait.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\wait.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/lock-green.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\lock-green.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/top-secret.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\top-secret.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/skull.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\skull.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/topsecret.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\topsecret.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/globe.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\globe.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/triangle.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\triangle.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/satellite.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\satellite.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/map1.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\map1.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/hacker/particles.min.js
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\particles.min.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/hacker/hacker.js?x=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hacker.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/chat-screenshot/amp.html
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\amp.html
+Content Type: text/html
+
+Uri: https://geekprank.com/chat-screenshot/index.css?ver=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\index.css
+Content Type: text/css
+
+Uri: https://html-css-js.com/html/character-codes/
+File Name: C:\Downloaded Web Sites\geekprank.com\html\character-codes\index.htm
+Content Type: text/html
+
+Uri: https://htmlg.com/html-editor/
+File Name: C:\Downloaded Web Sites\geekprank.com\html-editor\index.htm
+Content Type: text/html
+
+Uri: https://htmlcheatsheet.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index-5.htm
+Content Type: text/html
+
+Uri: https://en.wikipedia.org/wiki/Android_(operating_system)
+File Name: C:\Downloaded Web Sites\geekprank.com\wiki\Android_(operating_system).html
+Content Type: text/html
+
+Uri: https://en.wikipedia.org/wiki/IOS
+File Name: C:\Downloaded Web Sites\geekprank.com\wiki\IOS.html
+Content Type: text/html
+
+Uri: https://www.facebook.com/htmlcoding/
+File Name: C:\Downloaded Web Sites\geekprank.com\htmlcoding\index.htm
+Content Type: text/html
+
+Uri: https://www.messenger.com/
+File Name: C:\Downloaded Web Sites\geekprank.com\index-6.htm
+Content Type: text/html
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\geekprank.com\ajax\libs\jquery\3.3.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://geekprank.com/chat-screenshot/index.js?ver=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\index.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/chat-screenshot/logo.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\logo.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/suzan.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\suzan.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/chat-screenshot/img-missing.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\img-missing.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/myface.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\myface.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/chat-screenshot/online-chat-messenger-screenshot-generator.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\online-chat-messenger-screenshot-generator.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/fake-virus/style.css?ver=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\style.css
+Content Type: text/css
+
+Uri: https://code.jquery.com/jquery-latest.min.js
+File Name: C:\Downloaded Web Sites\geekprank.com\jquery-latest.min.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/fake-virus/script.js?ver=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/fake-virus/background.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\background.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/fake-virus/fake-virus.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\fake-virus.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-virus/fake-virus-prank.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\fake-virus-prank.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-virus/cursor.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\cursor.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/fake-virus/fake-hacked-computer.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\fake-hacked-computer.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-virus/files-encrypted-prank.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\files-encrypted-prank.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-virus/pay-with-kidneys.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\pay-with-kidneys.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-virus/support.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\support.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fbi-warning/style.css?ver=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/fbi-warning/script.js?ver=2020oct
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/fbi-warning/fake-fbi-waring-prank.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\fake-fbi-waring-prank.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/fbi-warning/logo.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\logo.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fbi-warning/internet-security-reasons.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\internet-security-reasons.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fbi-warning/cursor.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\cursor.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/fbi-warning/support.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\support.png
+Content Type: image/png
+
+Uri: https://geekprank.com/apple/mobile.html
+File Name: C:\Downloaded Web Sites\geekprank.com\apple\mobile.html
+Content Type: text/html
+
+Uri: https://geekprank.com/winxp-update/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\winxp-update\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/winxp-update/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\winxp-update\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/winxp-update/xplogo.png
+File Name: C:\Downloaded Web Sites\geekprank.com\winxp-update\xplogo.png
+Content Type: image/png
+
+Uri: https://geekprank.com/win7-update/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\win7-update\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/win7-update/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\win7-update\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/win7-update/thinking.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\win7-update\thinking.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/win7-update/win7pro.png
+File Name: C:\Downloaded Web Sites\geekprank.com\win7-update\win7pro.png
+Content Type: image/png
+
+Uri: https://geekprank.com/win10-update/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\win10-update\style.css
+Content Type: text/css
+
+Uri: https://code.jquery.com/jquery-2.1.4.min.js
+File Name: C:\Downloaded Web Sites\geekprank.com\jquery-2.1.4.min.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/win10-update/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\win10-update\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/bios/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/bios/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\script.js
+Content Type: application/javascript
+
+Uri: https://en.wikipedia.org/wiki/List_of_Easter_eggs_in_Microsoft_products
+File Name: C:\Downloaded Web Sites\geekprank.com\wiki\List_of_Easter_eggs_in_Microsoft_products.html
+Content Type: text/html
+
+Uri: https://geekprank.com/pipes/lib/sri-fallback.js
+File Name: C:\Downloaded Web Sites\geekprank.com\pipes\lib\sri-fallback.js
+Content Type: application/javascript
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/three.js/98/three.min.js
+File Name: C:\Downloaded Web Sites\geekprank.com\ajax\libs\three.js\98\three.min.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/pipes/lib/OrbitControls.js
+File Name: C:\Downloaded Web Sites\geekprank.com\pipes\lib\OrbitControls.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/pipes/lib/TeapotBufferGeometry.js
+File Name: C:\Downloaded Web Sites\geekprank.com\pipes\lib\TeapotBufferGeometry.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/pipes/screensaver.js?x=3
+File Name: C:\Downloaded Web Sites\geekprank.com\pipes\screensaver.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/matrix-code-rain/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\matrix-code-rain\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/matrix-code-rain/script.js?v=2
+File Name: C:\Downloaded Web Sites\geekprank.com\matrix-code-rain\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/static-tv-noise/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\static-tv-noise\style.css
+Content Type: text/css
+
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js
+File Name: C:\Downloaded Web Sites\geekprank.com\ajax\libs\jquery\1.7.1\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://geekprank.com/static-tv-noise/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\static-tv-noise\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/just-prank/
+File Name: C:\Downloaded Web Sites\geekprank.com\just-prank\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/cracked-screen/cracked-screen.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\cracked-screen\cracked-screen.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/jurassic-park/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/jurassic-park/console/
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/jurassic-park/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/jurassic-park/sound/alarm.mp3
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\sound\alarm.mp3
+Content Type: audio/mpeg
+
+Uri: https://geekprank.com/style.css?v=19
+File Name: C:\Downloaded Web Sites\geekprank.com\style-1.css
+Content Type: text/css
+
+Uri: https://geekprank.com/scripts.js?v=19
+File Name: C:\Downloaded Web Sites\geekprank.com\scripts-1.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/images/writehereyo.png
+File Name: C:\Downloaded Web Sites\geekprank.com\images\writehereyo.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/bitcoin-miner/
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\bitcoin-miner\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/norton-commander/
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/crack/
+File Name: C:\Downloaded Web Sites\geekprank.com\crack\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/minesweeper/
+File Name: C:\Downloaded Web Sites\geekprank.com\minesweeper\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/tetris/
+File Name: C:\Downloaded Web Sites\geekprank.com\tetris\index.htm
+Content Type: text/html
+
+Uri: https://geekprank.com/internet-explorer-ie7-emulator.php
+File Name: C:\Downloaded Web Sites\geekprank.com\internet-explorer-ie7-emulator.php.html
+Content Type: text/html
+
+Uri: https://geekprank.com/blank.php
+File Name: C:\Downloaded Web Sites\geekprank.com\blank.php.html
+Content Type: text/html
+
+Uri: https://geekprank.com/minesweeper/images/minesweeper/alertWindow.png
+File Name: C:\Downloaded Web Sites\geekprank.com\minesweeper\images\minesweeper\alertWindow.png
+Content Type: image/png
+
+Uri: https://geekprank.com/minesweeper/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\minesweeper\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/minesweeper/images/minesweeper/notchecked.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\minesweeper\images\minesweeper\notchecked.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/minesweeper/images/minesweeper/checked.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\minesweeper\images\minesweeper\checked.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/tetris/stats.js
+File Name: C:\Downloaded Web Sites\geekprank.com\tetris\stats.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/boot-device-not-found/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/boot-device-not-found/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/boot-device-not-found/dell.png
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\dell.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-dos/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/fake-dos/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/hacker/flags.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\flags.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/green-folder.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\green-folder.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/bitcoin.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\bitcoin.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/green-graph.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\green-graph.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/hammer.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hammer.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/bang.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\bang.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/heap.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\heap.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/wait-icon.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\wait-icon.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/ui-icons.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\ui-icons.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/green-back.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\green-back.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/hacker/execute.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\execute.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/progres.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\progres.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/server.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\server.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/lock-closed-green.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\lock-closed-green.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/hacker/nuclearPlant.png
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\nuclearPlant.png
+Content Type: image/png
+
+Uri: https://geekprank.com/hacker/hacker.css?x=20200929
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hacker-1.css
+Content Type: text/css
+
+Uri: https://geekprank.com/hacker/hacker.js?x=202009
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hacker-1.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/chat-screenshot/sprite.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\sprite.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/topnotch.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\topnotch.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/arrowup.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\arrowup.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/ios-he.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\ios-he.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/ios-me.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\ios-me.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/activemark.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\activemark.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/send-pecek.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\send-pecek.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/scrollbar-back.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\scrollbar-back.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-facebook.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-facebook.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-twitter.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-twitter.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-tinder.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-tinder.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-whatsapp.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-whatsapp.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/topnotch-negative.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\topnotch-negative.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/whatsapp-he.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\whatsapp-he.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/whatsapp-me.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\whatsapp-me.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-skype.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-skype.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-iphone.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-iphone.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-android.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-android.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/bigphone-linkedin.png
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\bigphone-linkedin.png
+Content Type: image/png
+
+Uri: https://geekprank.com/chat-screenshot/whatsback.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\chat-screenshot\whatsback.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/fake-virus/scroll.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-virus\scroll.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fbi-warning/scroll.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fbi-warning\scroll.png
+Content Type: image/png
+
+Uri: https://geekprank.com/apple/apple-ios-upgrade-prank.svg
+File Name: C:\Downloaded Web Sites\geekprank.com\apple\apple-ios-upgrade-prank.svg
+Content Type: image/svg+xml
+
+Uri: https://geekprank.com/winxp-update/backg.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\winxp-update\backg.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/win7-update/backg.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\win7-update\backg.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/bios/fonts/Perfect.eot
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\fonts\Perfect.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://geekprank.com/bios/fonts/Perfect.woff
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\fonts\Perfect.woff
+Content Type: font/woff
+
+Uri: https://geekprank.com/bios/fonts/Perfect.ttf
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\fonts\Perfect.ttf
+Content Type: font/ttf
+
+Uri: https://geekprank.com/bios/fonts/Perfect.svg
+File Name: C:\Downloaded Web Sites\geekprank.com\bios\fonts\Perfect.svg
+Content Type: image/svg+xml
+
+Uri: https://geekprank.com/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\style-2.css
+Content Type: text/css
+
+Uri: https://geekprank.com/just-prank/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\just-prank\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/scripts.js
+File Name: C:\Downloaded Web Sites\geekprank.com\scripts-2.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/images/slider/bitcoin.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\bitcoin.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/slider/system-boot-screen.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\slider\system-boot-screen.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/just-prank/just-prank.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\just-prank\just-prank.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/sprite.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\sprite.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/map.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\map.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/jurassic-park/fence/p0.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p0.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p1.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p1.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p2.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p2.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p3.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p3.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p4.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p4.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p5.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p5.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p6.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p6.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p7.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p7.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/fence/p0.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p0.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p1.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p1.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p2.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p2.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p3.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p3.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p4.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p4.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p5.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p5.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p6.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p6.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/fence/p7.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\fence\p7.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/console/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/jurassic-park/console/script.js
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\script.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/jurassic-park/console/jurassic-park-computer-screen.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\jurassic-park-computer-screen.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/console/console.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\console.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/jurassic-park/console/beep.mp3
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\beep.mp3
+Content Type: audio/mpeg
+
+Uri: https://geekprank.com/jurassic-park/console/beep-dramatic.mp3
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\beep-dramatic.mp3
+Content Type: audio/mpeg
+
+Uri: https://geekprank.com/hacker/hacker.css
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hacker-2.css
+Content Type: text/css
+
+Uri: https://geekprank.com/hacker/hacker.js?ver=2020
+File Name: C:\Downloaded Web Sites\geekprank.com\hacker\hacker-2.js
+Content Type: application/javascript
+
+Uri: https://geekprank.com/norton-commander/style.css
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\style.css
+Content Type: text/css
+
+Uri: https://geekprank.com/crack/cracked-mobile.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\crack\cracked-mobile.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/images/ie7-emulator.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\images\ie7-emulator.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/boot-device-not-found/fonts/Perfect.eot
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\fonts\Perfect.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://geekprank.com/boot-device-not-found/fonts/Perfect.woff
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\fonts\Perfect.woff
+Content Type: font/woff
+
+Uri: https://geekprank.com/boot-device-not-found/fonts/Perfect.ttf
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\fonts\Perfect.ttf
+Content Type: font/ttf
+
+Uri: https://geekprank.com/boot-device-not-found/fonts/Perfect.svg
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\fonts\Perfect.svg
+Content Type: image/svg+xml
+
+Uri: https://geekprank.com/boot-device-not-found/cursor.png
+File Name: C:\Downloaded Web Sites\geekprank.com\boot-device-not-found\cursor.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-dos/fonts/Perfect.eot
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\fonts\Perfect.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://geekprank.com/fake-dos/fonts/Perfect.woff
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\fonts\Perfect.woff
+Content Type: font/woff
+
+Uri: https://geekprank.com/fake-dos/fonts/Perfect.ttf
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\fonts\Perfect.ttf
+Content Type: font/ttf
+
+Uri: https://geekprank.com/fake-dos/fonts/Perfect.svg
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\fonts\Perfect.svg
+Content Type: image/svg+xml
+
+Uri: https://geekprank.com/fake-dos/cursor.png
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\cursor.png
+Content Type: image/png
+
+Uri: https://geekprank.com/fake-dos/typing.gif
+File Name: C:\Downloaded Web Sites\geekprank.com\fake-dos\typing.gif
+Content Type: image/gif
+
+Uri: https://geekprank.com/jurassic-park/console/bg.jpg
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\bg.jpg
+Content Type: image/jpeg
+
+Uri: https://geekprank.com/jurassic-park/console/menuico.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\menuico.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/console/sprite.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\sprite.png
+Content Type: image/png
+
+Uri: https://geekprank.com/jurassic-park/console/sprite-v.png
+File Name: C:\Downloaded Web Sites\geekprank.com\jurassic-park\console\sprite-v.png
+Content Type: image/png
+
+Uri: https://geekprank.com/norton-commander/fonts/Perfect.eot
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\Perfect.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://geekprank.com/norton-commander/fonts/Perfect.woff
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\Perfect.woff
+Content Type: font/woff
+
+Uri: https://geekprank.com/norton-commander/fonts/Perfect.ttf
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\Perfect.ttf
+Content Type: font/ttf
+
+Uri: https://geekprank.com/norton-commander/fonts/Perfect.svg
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\Perfect.svg
+Content Type: image/svg+xml
+
+Uri: https://geekprank.com/norton-commander/fonts/joystix.eot
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\joystix.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://geekprank.com/norton-commander/fonts/joystix.woff
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\joystix.woff
+Content Type: font/woff
+
+Uri: https://geekprank.com/norton-commander/fonts/joystix.ttf
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\joystix.ttf
+Content Type: font/ttf
+
+Uri: https://geekprank.com/norton-commander/fonts/joystix.svg
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\fonts\joystix.svg
+Content Type: image/svg+xml
+
+Uri: https://geekprank.com/norton-commander/cursor.png
+File Name: C:\Downloaded Web Sites\geekprank.com\norton-commander\cursor.png
+Content Type: image/png
+

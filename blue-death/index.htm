@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Windows Blue Death - Text and Animation</title>
+	<link rel="canonical" href="index.htm">
+	<meta name="description" content="Prank your friends with a fake BSOD error, also known as Blue Death. The error message is flashed on the screen, then a computer restart simulation follows next.">
+	<meta name="keywords" content="geek,prank,old,windows,xp">	
+	<meta property="fb:admins" content="johnny.johnson1986">
+	<meta property="og:title" content="Windows Blue Death - Text and Animation">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://geekprank.com/blue-death/">
+	<meta property="og:image" content="https://geekprank.com/blue-death/social.jpg">
+	<meta property="og:description" content="Prank your friends with a fake BSOD error, also known as Blue Death. The error message is flashed on the screen, then a computer restart simulation follows next.">
+	<style>
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
+#redirectIframe {position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 9999;background: #000;display: none;}
+#redirectIframe iframe {border: none; outline: none;}
+#blackScreen {
+position: fixed;cursor: none;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;background-color: #000;z-index: 2000;}
+#blueScreen {
+font-family: "Lucida Console", Monaco, monospace;background-color: #0000AA;color: white;position: fixed;cursor: none;top: 0;bottom: 0;left: 0;right: 0;height: 100%;width: 100%;z-index: 3000;font-size: 22px;line-height: 24px;text-align: center;display: none;}
+#blueScreen > div {
+display: inline-block;text-align: left;margin-top: 100px;}
+@media screen and (max-width: 1400px){
+#blueScreen {
+font-size: 14px;line-height: 14px;}
+}
+@media screen and (max-width: 800px){
+#blueScreen {
+font-size: 12px;line-height: 12px;letter-spacing: -1px;}
+#blueScreen > div {
+margin-top: 50px;}
+}
+@media screen and (max-width: 600px){
+.mobileHidden {
+display: none;}
+#blueScreen {
+letter-spacing: 0;}
+#blueScreen > div {
+margin: 20px;}
+}
+	</style>
+	<script src="../jquery-1.12.4.js"></script>
+	<script type="text/javascript"> 
+		$(document).ready(function () {
+			$("#button").click(function(event) {
+				$("#box").show();
+			});	
+			setTimeout(function(){ $('#blueScreen').show();$('#blackScreen').hide(); blueScreen();}, 1000);
+		});
+		function blueScreen() {
+			//setTimeout('window.open("https://geekprank.com/boot-device-not-found/","_self");', 4000);			
+			 setTimeout(function () {
+				document.getElementById("redirectIframe").style.display = "block";
+				document.getElementById("redirectIframe").innerHTML = '<iframe id="fullScreenIframe" style="width: 100%; height: 100%; overflow: hidden;" src="https://geekprank.com/boot-device-not-found/" width="100" height="100" scrolling="no">Iframes not supported</iframe>';
+				document.getElementById("fullScreenIframe").contentWindow.focus();
+			 }, 4000);
+		}
+	</script>
+</head>
+<body>
+	<div id="blackScreen">	
+	</div>
+	<div id="blueScreen">
+		<div>
+			A problem has been detected and Windows has been shut down to prevent damage <br>
+			to your computer.<br>
+			<br>
+			UNMOUNTABLE_BOOT_VOLUME<br>
+			<br>
+			<span class="mobileHidden">
+				If this is the first time you've seen this error screen,<br>
+				restart your computer. If this screen appears again, follow<br>
+				these steps:<br>
+				<br>
+				Check to make sure any new hardware or software is properly installed.<br>
+				If this is a new installation, ask your hardware or software manufacturer<br>
+				for any Windows updates you might need.<br>
+				<br>
+				If problems continue, disable or remove any newly installed hardware<br>
+				or software. Disable BIOS memory options such as caching or shadowing.<br>
+				If you need to use Safe Mode to remove or disable components, restart<br>
+				your computer, press F8 to select Advanced Startup Options, and then<br>
+				Select Safe Mode<br>
+			</span>
+			<br>
+			Technical Information<br>
+			<br>
+			*** STOP: 0X00000ED (0X80F128D0, 0X000009C, 0X0000000, 0X0000000)
+		</div>
+	</div>
+	<div id="redirectIframe"></div>
+	<script async="" src="../gtag/js.js?id=UA-90658565-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-90658565-1');
+	</script>
+</body>
+</html>

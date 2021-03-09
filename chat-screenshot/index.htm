@@ -1,0 +1,481 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="index.htm">
+	<link rel="amphtml" href="amp.html">
+    <title>Chat ScreenShot Generator - Fake messenger text for Facebook, Twitter, Skype</title>
+    <meta name="description" content="Online Chat and Messenger simulator for social media conversations to take a screenshot image. Android and iPhone SMS (text message), Facebook Messenger, Skype, Twitter, Tinder, Whattsapp and Linkedin">
+    <meta name="keywords" content="chat,screenshot">
+    <meta property="fb:admins" content="fricikoma">
+    <meta property="og:title" content="Messenger Screenshot Generator">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://geekprank.com/chat-screenshot/">
+    <meta property="og:image" content="https://geekprank.com/chat-screenshot/online-chat-messenger-screenshot-generator.jpg">
+    <meta property="og:description" content="Online Chat and Messenger simulator for social media conversations to take a screenshot image. Android and iPhone SMS (text message), Facebook Messenger, Skype, Twitter, Tinder, Whattsapp and Linkedin">
+	<script src="../ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="index.js?ver=2020oct"></script>
+	<link rel="stylesheet" type="text/css" href="index.css?ver=2020oct">
+<!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async="true">
+(function() {
+  var host = window.location.hostname;
+  var element = document.createElement('script');
+  var firstScript = document.getElementsByTagName('script')[0];
+  var url = 'https://quantcast.mgr.consensu.org'
+    .concat('/choice/', 'xncav4ssEzwLp', '/', host, '/choice.js')
+  var uspTries = 0;
+  var uspTriesLimit = 3;
+  element.async = true;
+  element.type = 'text/javascript';
+  element.src = url;
+
+  firstScript.parentNode.insertBefore(element, firstScript);
+
+  function makeStub() {
+    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+    var queue = [];
+    var win = window;
+    var cmpFrame;
+
+    function addFrame() {
+      var doc = win.document;
+      var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+
+      if (!otherCMP) {
+        if (doc.body) {
+          var iframe = doc.createElement('iframe');
+
+          iframe.style.cssText = 'display:none';
+          iframe.name = TCF_LOCATOR_NAME;
+          doc.body.appendChild(iframe);
+        } else {
+          setTimeout(addFrame, 5);
+        }
+      }
+      return !otherCMP;
+    }
+
+    function tcfAPIHandler() {
+      var gdprApplies;
+      var args = arguments;
+
+      if (!args.length) {
+        return queue;
+      } else if (args[0] === 'setGdprApplies') {
+        if (
+          args.length > 3 &&
+          args[2] === 2 &&
+          typeof args[3] === 'boolean'
+        ) {
+          gdprApplies = args[3];
+          if (typeof args[2] === 'function') {
+            args[2]('set', true);
+          }
+        }
+      } else if (args[0] === 'ping') {
+        var retr = {
+          gdprApplies: gdprApplies,
+          cmpLoaded: false,
+          cmpStatus: 'stub'
+        };
+
+        if (typeof args[2] === 'function') {
+          args[2](retr);
+        }
+      } else {
+        queue.push(args);
+      }
+    }
+
+    function postMessageEventHandler(event) {
+      var msgIsString = typeof event.data === 'string';
+      var json = {};
+
+      try {
+        if (msgIsString) {
+          json = JSON.parse(event.data);
+        } else {
+          json = event.data;
+        }
+      } catch (ignore) {}
+
+      var payload = json.__tcfapiCall;
+
+      if (payload) {
+        window.__tcfapi(
+          payload.command,
+          payload.version,
+          function(retValue, success) {
+            var returnMsg = {
+              __tcfapiReturn: {
+                returnValue: retValue,
+                success: success,
+                callId: payload.callId
+              }
+            };
+            if (msgIsString) {
+              returnMsg = JSON.stringify(returnMsg);
+            }
+            event.source.postMessage(returnMsg, '*');
+          },
+          payload.parameter
+        );
+      }
+    }
+
+    while (win) {
+      try {
+        if (win.frames[TCF_LOCATOR_NAME]) {
+          cmpFrame = win;
+          break;
+        }
+      } catch (ignore) {}
+
+      if (win === window.top) {
+        break;
+      }
+      win = win.parent;
+    }
+    if (!cmpFrame) {
+      addFrame();
+      win.__tcfapi = tcfAPIHandler;
+      win.addEventListener('message', postMessageEventHandler, false);
+    }
+  };
+
+  makeStub();
+
+  var uspStubFunction = function() {
+    var arg = arguments;
+    if (typeof window.__uspapi !== uspStubFunction) {
+      setTimeout(function() {
+        if (typeof window.__uspapi !== 'undefined') {
+          window.__uspapi.apply(window.__uspapi, arg);
+        }
+      }, 500);
+    }
+  };
+
+  var checkIfUspIsReady = function() {
+    uspTries++;
+    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+      console.warn('USP is not accessible');
+    } else {
+      clearInterval(uspInterval);
+    }
+  };
+
+  if (typeof window.__uspapi === 'undefined') {
+    window.__uspapi = uspStubFunction;
+    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+  }
+})();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script data-cfasync="false">var freestar = freestar || {};freestar.hitTime = Date.now();freestar.queue = freestar.queue || [];freestar.config = freestar.config || {};freestar.debug = window.location.search.indexOf('fsdebug') === -1 ? false : true;freestar.config.enabled_slots = [];!function(a,b){var c=b.getElementsByTagName("script")[0],d=b.createElement("script"),e="https://a.pub.network/geekprank-com";e+=freestar.debug?"/qa/pubfig.min.js":"/pubfig.min.js",d.async=!0,d.src=e,c.parentNode.insertBefore(d,c)}(window,document);freestar.initCallback = function () { (freestar.config.enabled_slots.length === 0) ? freestar.initCallbackCalled = false : freestar.newAdSlots(freestar.config.enabled_slots) }</script>
+  </head>
+  <body>
+	<div id="wrapper" spellcheck="false" class="a6">
+		<div id="mainWrapper" class="d2">
+			<div id="options" class="clearfix">
+				<a href="../index.htm" id="logo" title="GeekPrank Home">
+					<img src="logo.png" alt="GeekPrank logo">
+				</a>
+				<a href="../index.htm" id="backHome" target="_blank" title="More pranks">
+					More &raquo;
+				</a>
+				<div id="appOptions">
+					<ul>
+						<li id="a7">Android</li>
+						<li id="a6">iPhone</li>
+						<li id="a1">Facebook</li>
+						<li id="a5">Skype</li>
+						<li id="a2">Twitter</li>
+						<li id="a3">Tinder</li>
+						<li id="a4">WhatsApp</li>
+						<li id="a8">LinkedIn</li>
+					</ul>
+				</div>
+				<div id="screenOptions">
+					<ul>
+						<li id="d1">Phone</li>
+						<li id="d2">Narrow</li>
+						<li id="d3">Wide</li>
+					</ul>
+				</div>
+			</div>
+			<div id="threeColumns">
+				<div id="leftSidebar">
+					<div id="welcome">
+						<div class="kekBubi" title="Close">
+							<div class="close">&times;</div>
+							Select a template in the&nbsp;menu&nbsp;above and compose the&nbsp;conversation&nbsp;below.<br>Play&nbsp;the Demo&nbsp;here.
+						</div>
+						<div class="farkincablue">
+						</div>
+					</div>
+					<div class="row centered">
+						<span class="button eraseAllMessages">
+							Erase All
+							<span>
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="459px" height="459px" viewbox="0 0 459 459" xml:space="preserve">
+								<g>
+									<g id="delete">
+										<path d="M76.5,408c0,28.05,22.95,51,51,51h204c28.05,0,51-22.95,51-51V102h-306V408z M408,25.5h-89.25L293.25,0h-127.5l-25.5,25.5
+											H51v51h357V25.5z"></path>
+									</g>
+								</g>
+								</svg>
+							</span>
+						</span>
+						<span class="button playDemo blueBlinking">
+							Demo 
+							<span class="playIcon">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 232.153 232.153" xml:space="preserve">
+								<g id="Play">
+									<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M203.791,99.628L49.307,2.294c-4.567-2.719-10.238-2.266-14.521-2.266
+										c-17.132,0-17.056,13.227-17.056,16.578v198.94c0,2.833-0.075,16.579,17.056,16.579c4.283,0,9.955,0.451,14.521-2.267
+										l154.483-97.333c12.68-7.545,10.489-16.449,10.489-16.449S216.471,107.172,203.791,99.628z"></path>
+								</g>
+								</svg>
+							</span>
+							<span class="pauseIcon">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="510px" height="510px" viewbox="0 0 510 510" xml:space="preserve">
+								<g>
+									<g id="pause-circle-fill">
+										<path d="M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255S395.25,0,255,0z M229.5,357h-51V153h51V357z
+											 M331.5,357h-51V153h51V357z"></path>
+									</g>
+								</g>
+								</svg>
+							</span> 
+						</span>
+					</div>
+					<div id="sideReklm">
+						<div id="rklmwrap">
+<div align="center" id="geekprank_chat-screenshot_300x250_atf"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "geekprank_chat-screenshot_300x250_atf", slotId: "geekprank_chat-screenshot_300x250_atf" });</script></div>
+						</div>
+						<div id="wrapfabtest">
+							<div class="adBanner">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="wrapScreen">
+					<div id="screen">
+						<div id="display">
+							<div id="phoneTop" class="topNotch">
+								<div class="timeNow">11:53</div>
+							</div>
+						</div>
+						<div class="conversationHeaderiMiddle">
+							<div class="headerCenter">
+								<img src="suzan.jpg" alt="header image" id="phoneHeaderImage">
+								<span id="hisName">Suzan</span>
+								<input type="text" id="friendChatId" value="@prettygirl99">
+							</div>
+							<span class="iMessage">iMessage</span>
+							<input type="text" id="tinderTop" value="You matched with John on 01/01/01">
+						</div>
+						<div id="screenshotBy">
+							Chat Screenshot by GeekPrank.com
+						</div>
+						<div id="messageArea">
+							<div id="messages">
+
+							</div>
+						</div>
+						<div id="writingArea">
+							<input type="text" id="messageInput">
+							<div id="sendMyMessageOnPhone">
+								Send
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="wrapMessageSettings">
+					<div id="prepareMessage">
+						<div class="row" id="rowDate">
+							<div class="psName">
+								<span>Date</span>
+							</div>
+							<div class="psValue">
+								<input type="text" id="dateInput" value="Thursday 12:34">
+							</div>
+						</div>
+						<div class="row" id="rowImage">
+							<div class="psName">
+								<span>Image</span>
+							</div>
+							<div class="psValue">
+								<div class="center">
+									<img id="messageImage" alt="Error" src="img-missing.png">
+								</div>
+								<input type="text" id="messageImageLink" value="" class="blueInput" placeholder="image link">
+								<input type='file' id="messageImageFileInput" accept="image/*">
+								<span class="submit" id="sumbitMessageImageLink">
+									OK
+								</span>
+							</div>
+						</div>
+						<div class="row active" id="rowMessage">
+							<div class="psName">
+								<span>Message</span>
+							</div>
+							<div class="psValue">
+								<textarea cols="20" id="messageTextarea" rows="5"></textarea>
+								<a id="emojiLink" href="../html/character-codes/index.htm" target="_blank" title="More emojis...">😀</a>
+							</div>
+						</div>
+						<div class="row" id="rowEmoji">
+							<div class="psName">
+								<span>Emoji</span>
+							</div>
+							<div class="psValue">
+								<div id="emojis">
+									<span data-emoji="like"></span>
+									<span data-emoji="grinning"></span>
+									<span data-emoji="winking"></span>
+									<span data-emoji="crying-loudly"></span>
+									<span data-emoji="surprised"></span>
+									<span data-emoji="kiss"></span>
+									<span data-emoji="hearts-eyes"></span>
+									<span data-emoji="heart"></span>
+									<span data-emoji="hearts"></span>
+									<span data-emoji="heart-purple"></span>
+									<span data-emoji="party"></span>
+									<span data-emoji="devil"></span>
+									<span data-emoji="poo"></span>
+									<span data-emoji="angry"></span>
+									<span data-emoji="crying"></span>
+									<span data-emoji="grinning-big-eyes"></span>
+									<span data-emoji="hugging"></span>
+									<span data-emoji="neutral"></span>
+									<span data-emoji="sunglass"></span>
+									<span data-emoji="thinking"></span>
+									<span data-emoji="tears-of-joy"></span>
+									<span data-emoji="raised-eyebrows"></span>
+									<span data-emoji="prayer"></span>
+									<span data-emoji="pointing"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="error">
+						<div id="errorMessage">
+							Error message
+						</div>
+						<span class="submit">
+							OK
+						</span>
+					</div>
+					<div id="sendAsWho">
+						<div id="sendAsFriend" title="Send as he/she">
+							<div class="farkinca">
+							</div>
+							Receive&nbsp;<strong>&crarr;</strong>
+						</div>
+						<div id="sendAsMe" title="Send as Me">
+							<div class="farkincablue">
+							</div>
+							Send&nbsp;<strong>&raquo;</strong>
+						</div>
+					</div>
+					<div class="him">
+						<input class="nameInput" type="text" id="hisNameHeaderInput" value="Edit Friend's Name" spellcheck="false"> 
+						<div class="profileSettings">
+							<div class="row">
+								<div class="psName">
+									<img src="suzan.jpg" alt="None" id="hisFaceAvatar">
+								</div>
+								<div class="psValue">
+									<input type="text" id="hisNameInput" value="" class="blueInput" placeholder="image link">
+									<input type='file' id="hisNameFileInput" accept="image/*">
+									<span class="submit" id="submitHisAvatarLink">
+										OK
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="myself">
+						<input type="text" class="nameInput" id="myNameHeaderInput" value="Me" spellcheck="false">
+						<div class="profileSettings">
+							<div class="row">
+								<div class="psName">
+									<img src="myface.jpg" alt="Me" id="myFaceAvatar">
+								</div>
+								<div class="psValue">
+									<input type="text" id="myNameInput" value="" class="blueInput" placeholder="image link">
+									<input type='file' id="myNameFileInput" accept="image/*">
+									<span class="submit" id="submitMyAvatarLink">
+										OK
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+<div align="center" id="geekprank_chat-screenshot_300x250_btf"><script data-cfasync="false" type="text/javascript">freestar.config.enabled_slots.push({ placementName: "geekprank_chat-screenshot_300x250_btf", slotId: "geekprank_chat-screenshot_300x250_btf" });</script></div>
+
+				</div>
+			</div>
+		</div>
+		<div class="wrapArticle">
+			<div class="article">
+				<article>
+					<h1>Online Chat ScreenShot Generator</h1>
+					<p><strong>This Online Chat and Messenger simulator will help you recreate social media conversations and to take a screenshot image. It can simulate both Android and iPhone SMS (text message), and the most popular chat applications, such as Facebook Messenger, Skype, Twitter, Tinder, Whattsapp and Linkedin. It supports dates, images, text messages (<a href="../html-editor/index.htm">even HTML code</a>) and emojis.</strong></p>
+					<p class="centered"><img src="online-chat-messenger-screenshot-generator.jpg" alt="online chat sms messenger screenshot generator"></p>
+					<p class="centered">
+<!-- reklamocskahely reszponziv -->
+					</p>
+					<h2>Online fake text message maker</h2>
+					<p>The best use of this free online tool is to create fake text messages. Recreate funny or invent fictional conversations between real or imaginary characters.</p>
+					<p>Taking a fake text message chat screenshot can be done in a few simple steps with this website. Later you can use it to <a href="../index.htm">prank someone</a> or share it on your social media.</p>
+					<h2>How to use the fake messagenger?</h2>
+					<p>The program was built to be very intuitive and easy to use even without reading this guide. <u class="playDemo">Play the animation</u> that demonstrates how to set up the messages. Stop the demo and <u class="eraseAllMessages">erase the screen</u> to start with a fresh page.</p>
+					<ol>
+						<li>Select a design in the header</li>
+						<li>Add or remove a phone frame</li>
+						<li>Add a profile picture and edit the name(s)</li>
+						<li>Set up the messages and send it as you or your friend</li>
+						<li>Take a screenshot with the PrtScr button</li>
+						<li>Share it on the social media</li>
+					</ol>
+					<h3>Hidden features</h3>
+					<p>The submitted messages in the speech bubbles is editable.</p>
+					<p>Hover a sent row with your mouse to reveal the close, move up and move down options. This will allow you to get rid of unwanted texts and reorganize them.</p>
+					<p>The tool supports HTML code wich pushes the limitations of the tool, allowing you to add bold text, or any other formatting. For more information about HTML tags visit <a href="../index-5.htm">the interactive HTML cheat sheet</a>.</p>
+					<h2>Apps and Designs</h2>
+					<p>The program supports the most popular mobile applications but not Viber and Snapchat.</p>
+					<h3>Android and iPhone SMS Text Messages</h3>
+					<p>The first tabs open the most popular two mobile operating systems: <a href="../wiki/Android_(operating_system).html">Android</a> and <a href="../wiki/IOS.html">iOs</a>. By default they show in mobile frames of two flagship phones: a squeezed Samsung Galaxy S10 and an iPhone 10. The frame can be disabled in the second row of the menu.</p>
+					<h3>Facebook Messenger Screenshot</h3>
+					<p>Facebook Messenger is available on <a href="../htmlcoding/index.htm">facebook.com</a> in the form of a small widget, on <a href="../index-6.htm">messenger.com</a> as a full sized chat interface and also as individual mobile apps for all common operating systems. It supports voice and video calls, instant messages where the users can exchange photos, stickers, videos and files, as well as react to with emojis and interact with bots.</p>
+					<p>It has a simple design where you can see your own messages in blue speech bubbles and the others' in grey. The interface shows the friend's avatar and name but not yours.</p>
+					<h3>Capture Skype Conversation</h3>
+					<p>Skype (owned by Microsoft since 2011) is one of the most common telecommunications application on both mobile and desktop. Capture a Skype conversation screenshots easily.</p>
+					<p>This is the only chat with dark background.</p>
+					<h3>Twitter and Tinder Chat capture</h3>
+					<p><a href="https://twitter.com/RuwixCube">Twitter</a> news and social network is mostly known for publicly shared short messages, known as "tweets" but we can also initiate one-on-one conversations with other members. </p>
+					<p>This location-based dating and social mobile app allows users to like or dislike (swipe left or right) other users based on their profile picture and a short bio. A messenger window pops up if there's a match (both parties liked each other).</p>
+					<h3>WhatsApp and LinkedIn</h3>
+					<p>WhatsApp is a free messaging and voice over internet protocoll service through mobile phone numbers. It supports one on one and group communication. The app is easily recognizable by its monochrome seamlessly repeating background showing all kind of objects on.</p>
+					<p>LinkedIn is the only chat in our list where both the sender and receiver avatars are listed on the left side. This is the most popular business and employment-oriented professional networking social media platform where users can engage into conversations on both the mobile app and website. The LinkedIn message screenshot generator is great to fake job interview chats and other business conversations.</p>
+				</article>
+			</div>
+		</div>
+	</div>
+  <script async="" src="../gtag/js.js?id=UA-90658565-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-90658565-1');
+	</script>
+  </body>
+</html>

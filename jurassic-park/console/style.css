@@ -1,0 +1,353 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+html,body {background: url(bg.jpg) center center repeat transparent;font-family: Arial, Helvetica, sans-serif;}
+
+#menu {
+    background: #C1C1C1;
+    display: block;
+}
+#wrapMenu {
+	padding: 20px;
+	float: left;
+}
+#menu li {
+	border-bottom: 1px solid #000;
+}
+#menu li a {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 23px;
+	border-top: 1px solid #FFF;
+	background: url(menuico.png) center right no-repeat #C1C1C1;
+	display: block;
+	box-shadow: 0px 0px 3px #000 inset;
+	padding: 0 20px 0 15px;
+	width: 72px;
+}
+#menu li a:hover {
+	background-color: #EEE;
+}
+
+#headerLeft {
+	float: left;
+	color: #000;
+	background: #C1C1C1;
+	text-decoration: none;
+	margin: 20px 10px;
+	display: block;
+	box-shadow: 0 0 5px #FFF inset;
+	border-radius: 2px;
+}
+#headerLeft img {
+	cursor: pointer;
+	display: block;
+	margin: 4px;
+	border: 1px solid #555;
+	padding: 1px;
+	background: #EEE;
+	border-radius: 3px;
+}
+#headerLeft span {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 3px;
+	border: 1px solid #777;
+	margin: 3px;
+	box-shadow: 0 0 2px #555 inset;
+	border-radius: 3px;
+}
+#headerLeft:hover {
+	background: #EEE;
+}
+
+.window {
+	position: absolute;
+	border: 1px solid #000;
+	background: #BAB89E;
+	min-width: 150px;
+}
+.windowHead {
+	height: 30px;
+	background: url(sprite.png) 0px -1px repeat-x transparent;
+	overflow: hidden;
+}
+.minimize {
+	display: block;
+	float: left;
+	width: 33px;
+	height: 30px;
+	background: url(sprite.png) -1px -35px no-repeat transparent;
+	border-right: 1px solid #000;
+	box-shadow: 1px 1px 2px #FFF;
+}
+.title {
+    padding: 11px 0 0 41px;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+.maximize {
+	background: url(sprite.png) 0px -68px no-repeat transparent;
+	display: block;
+	float: right;
+	width: 59px;
+	height: 30px;
+}
+.windowBody {
+	min-height: 100px;
+	min-width: 100px;
+}
+.scroller {
+	background: url(sprite-v.png) -1px 0 repeat transparent;
+	width: 25px;
+	float: left;
+	position: relative
+}
+.scroller > div {
+	position: absolute;
+	top: 0;
+	width: 24px;
+	height: 17px;
+	background: url(sprite.png) -74px -73px no-repeat transparent;
+}
+.scroller > div.down {
+	top: auto;
+	bottom: 0;
+	background: url(sprite.png) -74px -52px no-repeat transparent;
+}
+.rightside {
+	float: right;
+	background: url(sprite-v.png) -42px 0 repeat transparent;
+	width: 7px;
+}
+.scroller, .content, .rightside {
+	height: 285px;
+}
+#cpu .scroller, #cpu .content, #cpu .rightside {
+    height: 350px;
+}
+#console .scroller, #console .content, #console .rightside {
+    height: 550px;
+}
+.windowFooter {
+	background: url(sprite.png) 0px -102px repeat-x transparent;
+	height: 6px;
+}
+
+.window#dos {
+    top: auto;
+    left: 50px;
+    bottom: 10px;
+    width: 1000px;
+}
+.window#cpu {
+    top: 300px;
+    left: 70px;
+}
+.window#console {
+    top: 200px;
+    left: 17%;
+    right: 17%;
+}
+#cpu .content {
+	background: #A8BCBB;
+}
+#dos .content {
+	background: #000;
+}
+#console .content {
+	background: #2435A0;	
+}
+
+#ahahah .scroller, #ahahah .content, #ahahah .rightside {
+    height: 630px;
+}
+.window#ahahah {
+	top: 150px;
+	left: 160px;
+		display: none;
+}
+#ahahah .content {
+	background: #FFF;
+	width: 580px;
+}
+
+.content {
+	padding: 0 0 0 10px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 19px;
+	overflow: hidden;
+}
+.content table td {
+	padding: 0 5px;
+}
+.content table td:nth-child(2) {
+	text-align: right;padding: 0 10px;
+}
+
+#cpu .scroller {
+	width: 8px;
+}
+#cpu .scroller > div {
+	display: none;
+}
+
+.bar {
+	border: 1px solid #000;
+	background: #00FF00;
+	height: 20px;
+	width: 95%;
+	overflow: hidden;
+}
+.bar.barOnly, .bar.blueonly, .bar.purple {
+	background: transparent;
+}
+.bar > div {
+	background: #0000FF;
+	width: 20%;
+	height: 20px;
+	float: left;
+}
+.bar.blueinverse > div, .bar.blueonly > div > div , .bar.purple > div {
+	background: #00FEFF;
+}
+.bar.blueinverse > div > div {
+	background: #00F;
+}
+.bar.purple > div > div {
+	background: #EA34E4;
+}
+.bar > div > div {
+	background: #FF0000;
+	width: 20%;
+	height: 20px;
+	float: right;
+}
+.bar > div > div > div{
+	background: #FFFF00;
+	width: 20%;
+	height: 20px;
+	float: right;
+}
+.barLabel {
+    font-style: italic;
+    color: #000;
+    font-size: 12px;
+    margin: 3px 0 0 0;
+}
+.barLabel > span {
+	display: inline-block;
+	margin: 0 3px;
+}
+.barLabel > span:nth-child(1) {	color: #00F;	}
+.barLabel > span:nth-child(2) {	color: #F00;	}
+.barLabel > span:nth-child(3) {	color: #FF0;	}
+.barLabel > span:nth-child(4) {	color: #0F0;	}
+
+span.paleblue {	color: #00FEFF !important;	}
+span.red {	color: #F00 !important;	}
+span.purple {	color: #F0F !important;	}
+span.yellow {	color: #FF0 !important;	}
+span.green {	color: #0F0 !important;	}
+
+#wrapIframe {
+    margin: 20px 0 20px -210px;
+    width: 1000px;
+    height: 562px;
+}
+#wrapIframe iframe{
+	width: 1000px;
+	height: 562px;
+}
+/*width="560" height="315"*/
+
+#cursor {
+    border: 2px solid #0F0;
+    height: 17px;
+    width: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1100px){
+	.window#dos {
+		width: 550px;
+	}
+}
+
+
+@media screen and (max-width: 888px){
+	.window#console {
+		top: 140px;
+		left: 16%;
+		right: 4%;
+	}
+	.window#ahahah {
+		top: 50px;
+		left: 40px;
+	}
+}
+
+@media screen and (max-width: 700px){
+	#wrapIframe iframe {
+		width: 560px;
+		height: 315px;
+	}
+	#wrapIframe {
+		margin: 20px 0 20px -180px;
+		width: 562px;
+		height: 315px;
+	}
+	#ahahah .content {
+		width: 220px;
+	}
+	#ahahah .scroller, #ahahah .content, #ahahah .rightside {
+		height: 262px;
+	}
+}
+
+@media screen and (max-width: 605px){
+	.window#dos {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 430px){
+	.window#console {
+		top: 152px;
+		left: 4%;
+		right: 4%;
+	}
+	.window#cpu {display: none;}
+	
+}
+
+
+
+
+

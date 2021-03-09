@@ -1,0 +1,390 @@
+﻿<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Phoenix BIOS Setup Utility Simulator</title>
+	<link rel="canonical" href="index.htm">
+	<meta name="author" content="Fricikoma">
+	<meta name="description" content="Online interactive CMOS bios setup simulator with navigation menu and main, advanced, security, boot settings.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="../jquery-1.12.4.js"></script>
+	<script src="script.js"></script>
+	<meta property="og:title" content="Phoenix BIOS Setup Utility Simulator">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Online interactive CMOS bios setup simulator with navigation menu and main, advanced, security, boot settings">
+	<meta property="og:url" content="https://geekprank.com/bios/">
+	<meta property="og:image" content="https://geekprank.com/bios/bios.jpg">
+</head>
+
+<body>
+	<div id="bios">
+		<div class="header">
+			Phoenix TrustedBios(tm) CMOS Setup Utility
+		</div>
+		<ul id="mainMenu">
+			<li class="selected">Main</li>
+			<li>Advanced</li>
+			<li>Security</li>
+			<li>Boot</li>
+			<li>Exit</li>
+		</ul>
+		<div class="mainContent">
+			<div id="mainPage" class="panel visiblepanel">
+				<div class="leftPanel">
+					<div class="leftPanelInner">
+						Bios Version: 4S4EB8X0.86F<br>
+						Service tag: XXXXX<br>
+						<br>
+						<table class="clickable">
+							<tr class="selected">
+								<td>System Time</td>
+								<td></td>
+								<td>[<span id='clockh'>10</span>:<span id='clockm'>50</span>:<span id='clocks'>33</span>]</td>
+							</tr>
+							<tr>
+								<td>System Date</td>
+								<td></td>
+								<td>[<span id='daten'>Wed</span> <span id='datem'>06</span>/<span id='dated'>23</span>/<span id='datey'>1986</span>]</td>
+							</tr>
+							<tr>
+								<td>&#9658; Primary IDE Master</td>
+								<td>:</td>
+								<td>[Not Detected]</td>
+							</tr>
+							<tr>
+								<td>&#9658; Primary IDE Slave</td>
+								<td>:</td>
+								<td>[Not Detected]</td>
+							</tr>
+							<tr>
+								<td>&#9658; SATA1</td>
+								<td>:</td>
+								<td>[HL-DT-ST DVDRW GH]</td>
+							</tr>
+							<tr>
+								<td>&#9658; SATA2</td>
+								<td>:</td>
+								<td>[SAMSUNG HD103SJ]</td>
+							</tr>
+							<tr>
+								<td>&#9658; SATA3</td>
+								<td>:</td>
+								<td>[Not Detected]</td>
+							</tr>
+							<tr>
+								<td>&#9658; SATA4</td>
+								<td>:</td>
+								<td>[Not Detected]</td>
+							</tr>
+							<tr>
+								<td>&#9658; Storage Configuration</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>&#9658; System Information</td>
+								<td></td>
+								<td></td>
+							</tr>
+							
+						</table>
+					</div>
+				</div>
+				<div class="rightPanel">
+					<div class="rightPanelInner">
+						<div class="rightPanelHead">
+							Item Specific Help
+						</div>
+						<div class="explicationText">
+							Use the keys in the footer to navigate.<br>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="mainPage" class="panel">
+				<div class="leftPanel">
+					<div class="leftPanelInner">
+						Setup Warning
+						Setting items on this menu to incorrect values
+						may cause your system to malfunction.<br>
+						<br>
+						<table>
+							<tr>
+								<td>CPU Type</td>
+								<td>Intel (R) Core(TM)2 Quad CPU</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>Q66 @ 2.40GHz</td>
+							</tr>
+							<tr>
+								<td>CPU Speeed</td>
+								<td>2.40GHz/1066MHz</td>
+							</tr>
+							<tr>
+								<td>Cache RAM</td>
+								<td>8192KB</td>
+							</tr>
+						</table>
+						<br>
+						<table class="clickable">
+							<tr class="selected">
+								<td>Primary Video Adapter</td>
+								<td></td>
+								<td>[PCI]</td>
+							</tr>
+							<tr>
+								<td>PS/2 Mouse</td>
+								<td></td>
+								<td>Auto Detect</td>
+							</tr>
+							<tr>
+								<td>PATA Controller</td>
+								<td></td>
+								<td>[Enabled]</td>
+							</tr>
+							<tr>
+								<td>SATA Controller</td>
+								<td></td>
+								<td>[Enabled]</td>
+							</tr>
+							<tr>
+								<td>Onboard LAN</td>
+								<td></td>
+								<td>[Enabled]</td>
+							</tr>
+							<tr>
+								<td>Onboard LAN Boot ROM</td>
+								<td></td>
+								<td>[Disabled]</td>
+							</tr>
+							<tr>
+								<td>Onboard 1394</td>
+								<td></td>
+								<td>[Enabled]</td>
+							</tr>
+							<tr>
+								<td>Supervisor Password</td>
+								<td></td>
+								<td><span class="gery">Disabled</span></td>
+							</tr>
+							<tr>
+								<td>User Password</td>
+								<td></td>
+								<td><span class="gery">Disabled</span></td>
+							</tr>
+							<tr>
+								<td>Onboard Audio</td>
+								<td></td>
+								<td>[Auto]</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="rightPanel">
+					<div class="rightPanelInner">
+						<div class="rightPanelHead">
+							Item Help
+						</div>
+						<div class="explicationText">							
+							Menu Level<br><br>
+							[Disabled] disables the Primariy Video Adapter function and frees up IRQ 12.<br>
+							[Enabled] enables and supports the function.<br>
+							[Auto Detect] enables the Video Adapter function if detected.<br>
+							<br>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+			</div>			
+			
+			<div id="mainPage" class="panel">
+				<div class="leftPanel">
+					<div class="leftPanelInner">
+						Password Description<br>
+						If ONLY the Administrator's password is set, this only access to Setup and is only asked for when entering Setup.<br>
+						If ONLY the User's password is set, this is a power on password and must be entered to boot to enter Setup.<br>
+						In Setup the User will have Administrator rights.<br>
+						<br>
+						<table class="clickable">
+							<tr class="selected">
+								<td>Administrator Password Status</td>
+								<td><span class="gery">:</span></td>
+								<td><span class="gery">INSTALLED</span></td>
+							</tr>
+							<tr>
+								<td>User Password Status</td>
+								<td><span class="gery">:</span></td>
+								<td><span class="gery">INSTALLED</span></td>
+							</tr>
+							<tr>
+								<td>Administrator Password</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>User Password</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>HDD Password Status</td>
+								<td><span class="gery">:</span></td>
+								<td><span class="gery">NOT INSTALLED</span></td>
+							</tr>
+							<tr>
+								<td>Set Master Password</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Set User Password</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>&#9658; I/O Interface Security</td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>&#9658; Secure Boot Menu</td>
+								<td></td>
+								<td></td>
+							</tr>
+							
+						</table>
+					</div>
+				</div>
+				<div class="rightPanel">
+					<div class="rightPanelInner">
+						<div class="rightPanelHead">
+							Set Administrator Password							
+						</div>
+						<div class="explicationText">
+							The password length must be in the following range:<br>
+							Minimum length: 3<br>
+							Maximum length: 20<br>
+							Must type with character:<br>
+							a-z, 0-9
+						</div>
+					</div>
+				</div>
+			</div>		
+		
+			<div id="mainPage" class="panel">
+				<div class="leftPanel">
+					<div class="leftPanelInner">
+						Boot priority order:<br>
+						<br>
+						<table class="clickable">
+							<tr class="selected">
+								<td><span class="gery">1: </span></td>
+								<td></td>
+								<td>IDE0: WCD WD1600BEVT-223CHG-(PM)</td>
+							</tr>
+							<tr>
+								<td><span class="gery">2: </span></td>
+								<td></td>
+								<td>CD/DVD: Optiarc DVD RW AD-98123-(P)</td>
+							</tr>
+							<tr>
+								<td><span class="gery">3: </span></td>
+								<td></td>
+								<td>Network Boot: MBA v11.0.11 Slot 0200</td>
+							</tr>
+							<tr>
+								<td><span class="gery">4: </span></td>
+								<td></td>
+								<td>USB HDD</td>
+							</tr>
+							<tr>
+								<td><span class="gery">5: </span></td>
+								<td></td>
+								<td>USB FDD</td>
+							</tr>
+							<tr>
+								<td><span class="gery">6: </span></td>
+								<td></td>
+								<td>USB KEY</td>
+							</tr>
+							<tr>
+								<td><span class="gery">7: </span></td>
+								<td></td>
+								<td>USB CD/DVD ROM</td>
+							</tr>
+
+							
+						</table>
+					</div>
+				</div>
+				<div class="rightPanel">
+					<div class="rightPanelInner">
+						<div class="rightPanelHead">
+							Item Specific Help							
+						</div>
+						<div class="explicationText">
+							Use the Up and Down arrows to select an item then move it up or down in the list.
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="mainPage" class="panel">
+				<div class="leftPanel">
+					<div class="leftPanelInner">
+						You are about to leave the Bios Setup Utility. <br>
+						<br>
+						<table class="clickable">
+							<tr class="selected">
+								<td><span class="gery">1: </span></td>
+								<td></td>
+								<td>Save Changes and Exit</td>
+							</tr>
+							<tr>
+								<td><span class="gery">2: </span></td>
+								<td></td>
+								<td>Exit Without Saving</td>
+							</tr>
+							<tr>
+								<td><span class="gery">3: </span></td>
+								<td></td>
+								<td>Load Defaults and Exit</td>
+							</tr>
+						</table>
+						<br>
+						Your computer will reboot.
+					</div>
+				</div>
+				<div class="rightPanel">
+					<div class="rightPanelInner">
+						<div class="rightPanelHead">
+							Exit							
+						</div>
+						<div class="explicationText">
+							Leaving the Bios Setup Utility will optionally save the CMOS settings and reboot the computer.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="keys">
+			<div><span>&larr;&rarr;</span> Select Menu</div>
+			<div><span>&uarr;&darr;</span> Select Item</div>
+			<div><span>Enter</span> Select / Sub-Menu</div>
+			<div><span>F9</span> Save and Exit</div>
+		</div>
+	</div> 
+</body>
+</html>
+
+

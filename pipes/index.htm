@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>3D Pipes Screensaver</title>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<style>
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+html, body {border: 0; margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; color: white; }
+#canvas-container {position: relative; }
+canvas {position: absolute;left: 0;top: 0;z-index: 8;}
+a, a:hover, a:visited {color: #000094;font-weight: bold;}
+a:hover {text-decoration: none;}
+p {font-size: 14px;line-height: 17px;text-align: left;text-indent: 25px;}
+h1 {font-size: 1.3em;font-weight: bold;margin: 10px 0 20px 0px;}
+h2 {font-size: 1.15em;font-weight: bold;margin: 10px 0 0;}
+.navi {margin: 15px;}
+#settings {padding: 10px;background: rgba(255, 255, 255, 1);position: absolute;top: 20%;left: 30%;max-width: 650px;z-index: 9;text-align: center;border-radius: 20px;color: #000;border: 2px solid #8bd2f0;font-family: Arial;}
+#redirectIframe {position: fixed;top: 0;bottom: 0;left: 0;right: 0;z-index: 9999;background: #000;display: none;}
+#settings th {text-align: left; }
+#settings th, #settings td {padding: 10px; }
+#settings > button, #settings > label {margin: 10px; }
+button, a.button {border: 2px solid black;background: rgba(35, 182, 255, 0.4);color: inherit;display: inline-block;margin: 2px;cursor: pointer;font-size: 14px;padding: 5px 10px;border-radius: 10px;outline: 0;line-height: 22px;font-weight: bold;text-decoration: none;}
+button:hover, a.button:hover {background: rgba(0, 170, 255, 0.54);}
+button svg {width: 15px !important;height: 15px !important;display: inline-block;margin: 2px 0 0 0;}
+.button svg {width: 18px !important;height: 18px !important;display: inline-block;margin: 2px 0 0 0;}
+button svg path {fill: currentColor; }
+.hidden {display: none;}
+button em, .button em {display: inline-block;border: 1px solid #000;width: 39px;border-radius: 5px;background: #dedada;height: 20px;line-height: 20px;vertical-align: middle;}
+button:hover em, .button:hover em {background: #FFF;}
+#close {cursor: pointer;display: inline-block;background: #FFF;float: right;height: 35px;width: 35px;line-height: 30px;font-size: 26px;text-align: center;margin: -30px 0 0 0;border-radius: 20px;font-weight: bold;border: 2px solid #8bd2f0;}
+#close:hover {background: rgb(72, 193, 245);}
+@media screen and (max-width: 1200px) {#settings {top: 22px;left: 10px;border-radius: 0 20px 20px 20px;}
+}
+@media screen and (max-width: 700px) {#settings {max-width: 90%;}
+.notTooImportant {display: none;}
+}
+@media screen and (max-height: 500px) {p, h2 {display: none;}
+}
+		</style>
+		<script src="lib/sri-fallback.js"></script>
+		<script x-sri-fallback="lib/three.min.js" src="../ajax/libs/three.js/98/three.min.js" integrity="sha256-MbIcpOhIEGLabqntH1B7ZgE7a6V0TrocmKouz1npT1g=" crossorigin="anonymous"></script>
+		<script src="lib/OrbitControls.js"></script>
+		<script src="lib/TeapotBufferGeometry.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+		<link rel="canonical" href="index.htm">
+		<meta name="description" content="A golden oldie, the 3D Pipes screensaver, also know as The plumber's nightmare was included in most Windows versions until Windows XP.">
+		<meta name="keywords" content="3D,pipes,screensaver">
+		<meta property="og:title" content="3D Pipes Screensaver">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://geekprank.com/pipes/">
+		<meta property="og:image" content="https://geekprank.com/pipes/images/og.jpg">
+		<meta property="og:description" content="A golden oldie, the 3D Pipes screensaver, also know as The plumber's nightmare was included in most Windows versions until Windows XP">
+	</head>
+	<body>
+		<div id="wrapPage">
+			<div id="canvas-container">
+				<canvas id="canvas-webgl"></canvas>
+				<canvas id="canvas-2d" style="pointer-events: none"></canvas>
+			</div>
+			<div id="settings" class="ui-container">
+				<div id="close" title="Close and go full screen">
+					x
+				</div>
+				<h1>3D Pipes Screensaver</h1>
+				<p>A golden oldie, the 3D Pipes screensaver, also know as "The plumber's nightmare" was included in most Windows versions until <a href="../xp-simulator.php.html">Windows XP</a>. The original purpose of a screen saver animation was to prevent the burning of an image into the phosphor inside the cathode ray tube of the old CRT monitors after hours of the same image being shown. </p>
+				<p class="notTooImportant">The animation would show tangled colored pipes being drawn like snakes on a dark background. The screen was cleared after a while fading out the pipes or pixelating them. Some of you might have noticed a nice <a href="../wiki/List_of_Easter_eggs_in_Microsoft_products.html" target="_blank">Windows easter egg</a> when the joints were replaced by teapots or when pipes were painted as red and white candy canes.</p>
+				<div class="navi">
+					<a class="button" href="../index.htm">
+						Back to Home
+						<em>
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 59.465 59.465" xml:space="preserve">
+							<g>
+								<g>
+									<path d="M58.862,33.886L45.045,20.069v-9.112c0-1.136-0.921-2.056-2.056-2.056c-1.137,0-2.057,0.92-2.057,2.056v5.001L31.185,6.21
+										c-0.801-0.803-2.104-0.803-2.905,0L0.603,33.886c-0.803,0.804-0.803,2.104,0,2.907c0.802,0.803,2.104,0.803,2.907,0L29.732,10.57
+										l26.223,26.223c0.401,0.398,0.93,0.604,1.455,0.604c0.522,0,1.051-0.201,1.452-0.604C59.665,35.988,59.665,34.689,58.862,33.886z"></path>
+									<path d="M52.979,36.245L31.185,14.449c-0.385-0.385-0.908-0.602-1.454-0.602c-0.545,0-1.068,0.217-1.453,0.602L6.484,36.245
+										c-0.291,0.288-0.487,0.659-0.565,1.062c-0.061,0.314-0.091,0.633-0.091,0.942v10.638c0,2.739,2.229,4.971,4.969,4.971h10.638
+										c1.378,0,2.707-0.582,3.645-1.599c0.854-0.923,1.324-2.12,1.324-3.373v-7.812c0-1.896,1.453-3.48,3.33-3.658
+										c1.878,0.178,3.331,1.762,3.331,3.658v7.812c0,1.252,0.472,2.45,1.324,3.373c0.938,1.017,2.269,1.599,3.646,1.599h10.638
+										c2.74,0,4.971-2.229,4.971-4.972V38.252c0-0.312-0.031-0.63-0.092-0.941C53.471,36.904,53.271,36.533,52.979,36.245z"></path>
+								</g>
+							</g>
+							</svg>
+						</em>
+					</a>
+						<label class="hidden">
+						Joints:
+						<select id="joint-types">
+							<option value="elbow">Elbow</option>
+							<option value="ball">Ball</option>
+							<option value="mixed" selected="">Mixed</option>
+							<option value="cycle">Cycle</option>
+						</select>
+					</label>
+					<button id="toggle-controls">
+						<span class="normal-controls-enabled">Mouse Controls <em>OFF</em></span>
+						<span hidden="" class="orbit-controls-enabled">Mouse Controls <em>ON</em></span>
+					</button>
+					<button id="fullscreen-button">
+						Full Screen
+						<em>
+							<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 438.543 438.543">
+								<path d="M407.42 159.029c3.62 3.616 7.898 5.428 12.847 5.428 2.282 0 4.668-.476 7.139-1.429 7.426-3.235 11.136-8.853 11.136-16.846V18.276c0-4.949-1.807-9.231-5.428-12.847-3.61-3.617-7.898-5.424-12.847-5.424H292.36c-7.991 0-13.607 3.805-16.848 11.419-3.23 7.423-1.902 13.99 4 19.698l41.111 41.112-101.352 101.355L117.917 72.231l41.112-41.112c5.901-5.708 7.232-12.275 3.999-19.698C159.789 3.807 154.175 0 146.182 0H18.276C13.324 0 9.041 1.809 5.425 5.426 1.808 9.042.001 13.324.001 18.273V146.18c0 7.996 3.809 13.61 11.419 16.846 2.285.948 4.57 1.429 6.855 1.429 4.948 0 9.229-1.812 12.847-5.427l41.112-41.109 101.354 101.354L72.234 320.622l-41.112-41.113c-5.711-5.903-12.275-7.231-19.702-4.001C3.806 278.749.001 284.364.001 292.362v127.906c0 4.948 1.807 9.229 5.424 12.847 3.619 3.614 7.902 5.421 12.851 5.421h127.906c7.996 0 13.61-3.806 16.846-11.416 3.234-7.427 1.903-13.99-3.999-19.705l-41.112-41.106L219.271 264.95l101.353 101.361-41.114 41.11c-5.899 5.708-7.228 12.279-3.997 19.698 3.237 7.617 8.856 11.423 16.851 11.423h127.907c4.948 0 9.232-1.813 12.847-5.428 3.613-3.613 5.42-7.898 5.42-12.847V292.362c0-7.994-3.709-13.613-11.136-16.851-7.802-3.23-14.462-1.903-19.985 4.004l-41.106 41.106-101.359-101.35L366.31 117.917l41.11 41.112z" fill="#FFF"></path>
+							</svg>
+						</em>
+					</button>
+				</div>
+				<h2>Controls</h2>
+				<p>Activate full screen to close this welcome window. If you spend more than five seconds in full screen mode and move the mouse the page will redirect to an interactive Windows XP screen. Exit full screen with the F11 keyboard&nbsp;button.</p>
+				<p class="notTooImportant">Click the 3D pipes to change the view. Enable mouse controls with the button below and drag the screen to change the view smoothly and use the scroll to&nbsp;zoom.</p>
+			</div>
+			<div id="redirectIframe"></div>
+			<script src="screensaver.js?x=3"></script>
+		</div>
+		<script async="" src="../gtag/js.js?id=UA-90658565-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-90658565-1');
+		</script>
+	</body>
+</html>
+<!-- https://1j01.github.io/pipes/ -->
