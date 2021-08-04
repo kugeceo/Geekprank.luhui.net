@@ -10,8 +10,8 @@
 	<meta property="fb:admins" content="johnny.johnson1986">
 	<meta property="og:title" content="Windows Blue Death - Text and Animation">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://geekprank.com/blue-death/">
-	<meta property="og:image" content="https://geekprank.com/blue-death/social.jpg">
+	<meta property="og:url" content="/blue-death/">
+	<meta property="og:image" content="social.jpg">
 	<meta property="og:description" content="Prank your friends with a fake BSOD error, also known as Blue Death. The error message is flashed on the screen, then a computer restart simulation follows next.">
 	<style>
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}table {border-collapse: collapse;border-spacing: 0;}
@@ -51,10 +51,10 @@ margin: 20px;}
 			setTimeout(function(){ $('#blueScreen').show();$('#blackScreen').hide(); blueScreen();}, 1000);
 		});
 		function blueScreen() {
-			//setTimeout('window.open("https://geekprank.com/boot-device-not-found/","_self");', 4000);			
+			//setTimeout('window.open("/boot-device-not-found/","_self");', 4000);			
 			 setTimeout(function () {
 				document.getElementById("redirectIframe").style.display = "block";
-				document.getElementById("redirectIframe").innerHTML = '<iframe id="fullScreenIframe" style="width: 100%; height: 100%; overflow: hidden;" src="https://geekprank.com/boot-device-not-found/" width="100" height="100" scrolling="no">Iframes not supported</iframe>';
+				document.getElementById("redirectIframe").innerHTML = '<iframe id="fullScreenIframe" style="width: 100%; height: 100%; overflow: hidden;" src="/boot-device-not-found/" width="100" height="100" scrolling="no">Iframes not supported</iframe>';
 				document.getElementById("fullScreenIframe").contentWindow.focus();
 			 }, 4000);
 		}
