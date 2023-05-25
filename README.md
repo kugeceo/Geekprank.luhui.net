@@ -19,6 +19,7 @@ http://geekprank.netlify.app
 
 Default subdomain
 
+http://windows.luhui.net
 
 
 http://prank.luhui.net
