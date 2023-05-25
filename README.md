@@ -14,18 +14,32 @@ Custom domains
 By default, your site is always accessible via a Netlify subdomain based on the site name. Custom domains allow you to access your site via one or more non-Netlify domain names.
 
 http://geekprank.netlify.app
+
+
+
 Default subdomain
 
 
 
 http://prank.luhui.net
+
+
 http://hacker.luhui.net
+
+
 http://Geekprank.luhui.net
+
+
 http://heike.luhui.net
+
+
 
 http://egao.luhui.net
 
+
+
 http://ezuoju.luhui.net
+
 
 
 
@@ -40,6 +54,9 @@ Use your own domain for your Netlify site for free
 
 Custom domains
 By default, your site is always accessible via a Netlify subdomain based on the site name. Custom domains allow you to access your site via one or more non-Netlify domain names.
+
+https://windows.guanfu.org/
+
 
 geekprank.netlify.app
 Default subdomain
